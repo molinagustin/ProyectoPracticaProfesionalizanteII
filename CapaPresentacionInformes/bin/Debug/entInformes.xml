@@ -1,0 +1,66 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+entInformes
+</name>
+</assembly>
+<members>
+<member name="T:entInformes.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:entInformes.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:entInformes.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:entInformes.eInforme.obtenerClientesIVA(System.Data.DataTable@)">
+ <summary>
+ Metodo que devuelve la cantidad de clientes cargados agrupados por condicion IVA
+ </summary>
+ <param name="tabla">Tabla a llenar de datos</param>
+</member>
+<member name="M:entInformes.eInforme.obtenerVentasFecha(System.Data.DataTable@,System.DateTime,System.DateTime)">
+ <summary>
+ Metodo que devuelve las ventas realizadas en un rango de fechas
+ </summary>
+ <param name="tabla">Tabla a llenar de datos</param>
+ <param name="fechaD">Fecha desde donde se quiere consultar</param>
+ <param name="fechaH">Fecha hasta cuando se quiere consultar</param>
+</member>
+<member name="M:entInformes.eInforme.obtenerEstadisticaVentas(System.Data.DataTable@,System.DateTime,System.DateTime)">
+ <summary>
+ Metodo que permite obtener la cantidad de productos vendidos en un rango de fechas
+ </summary>
+ <param name="tabla">Tabla para obtener los datos</param>
+ <param name="fechaD">Fecha desde donde se quiere consultar</param>
+ <param name="fechaH">Fecha hasta cuando se quiere consultar</param>
+</member>
+<member name="M:entInformes.eInforme.obtenerClientesActivos(System.Data.DataTable@)">
+ <summary>
+ Metodo que devuelve todos los clientes activos
+ </summary>
+ <param name="tabla">Tabla a llenar de datos</param>
+</member>
+<member name="M:entInformes.eInforme.obtenerCondicionesIVA(System.Data.DataTable@)">
+ <summary>
+ Metodo que devuelve todas las condiciones de IVA cargadas
+ </summary>
+ <param name="tabla">Tabla a llenar de datos</param>
+</member>
+<member name="M:entInformes.eInforme.obtenerTiposDoc(System.Data.DataTable@)">
+ <summary>
+ Metodo que devuelve todos los tipos de documentos cargados
+ </summary>
+ <param name="tabla">Tabla a llenar de datos</param>
+</member>
+</members>
+</doc>

@@ -1,0 +1,44 @@
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\Facturas.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\Facturas.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\Facturas.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Facturas\obj\Debug\entComprobantes.vbprojResolveAssemblyReference.cache
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Facturas\obj\Debug\Facturas.Resources.resources
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Facturas\obj\Debug\entComprobantes.vbproj.GenerateResource.Cache
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Facturas\obj\Debug\Facturas.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Facturas\obj\Debug\Facturas.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Facturas\obj\Debug\Facturas.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\Facturas.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\Facturas.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\Facturas.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\CapaDatos.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\CapaNegocio.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\UtilidadesSQL.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\MySql.Data.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\Google.Protobuf.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\CapaDatos.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\CapaDatos.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\CapaNegocio.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\CapaNegocio.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\UtilidadesSQL.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\UtilidadesSQL.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\MySql.Data.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\Facturas\obj\Debug\entComprobantes.vbprojResolveAssemblyReference.cache
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\Facturas\obj\Debug\Facturas.Resources.resources
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\Facturas\obj\Debug\entComprobantes.vbproj.GenerateResource.Cache
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\Facturas\obj\Debug\Facturas.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\Facturas\obj\Debug\Facturas.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\Facturas\obj\Debug\Facturas.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\CapaDatos.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\CapaNegocio.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\UtilidadesSQL.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\MySql.Data.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\Google.Protobuf.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\BouncyCastle.Crypto.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\CapaDatos.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\CapaDatos.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\CapaNegocio.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\CapaNegocio.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\UtilidadesSQL.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\UtilidadesSQL.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Facturas\bin\Debug\MySql.Data.xml

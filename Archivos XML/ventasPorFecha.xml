@@ -1,0 +1,87 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="IdCuerpo" type="xs:int" minOccurs="0" />
+                <xs:element name="Fecha" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NumComprobante" type="xs:int" minOccurs="0" />
+                <xs:element name="NombreProducto" type="xs:string" minOccurs="0" />
+                <xs:element name="Cantidad" type="xs:float" minOccurs="0" />
+                <xs:element name="BonificacionTotal" type="xs:float" minOccurs="0" />
+                <xs:element name="Total" type="xs:float" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <IdCuerpo>13</IdCuerpo>
+    <Fecha>2020-01-26T00:00:00-03:00</Fecha>
+    <NumComprobante>6</NumComprobante>
+    <NombreProducto>Galletas Quaker por 130gr.</NombreProducto>
+    <Cantidad>10</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>1500</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>14</IdCuerpo>
+    <Fecha>2020-01-26T00:00:00-03:00</Fecha>
+    <NumComprobante>6</NumComprobante>
+    <NombreProducto>Leche Sachet 1 L.</NombreProducto>
+    <Cantidad>10</Cantidad>
+    <BonificacionTotal>375</BonificacionTotal>
+    <Total>375</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>15</IdCuerpo>
+    <Fecha>2020-01-26T00:00:00-03:00</Fecha>
+    <NumComprobante>6</NumComprobante>
+    <NombreProducto>Avena Integral</NombreProducto>
+    <Cantidad>2.3</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>86.25</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>16</IdCuerpo>
+    <Fecha>2020-04-04T00:00:00-03:00</Fecha>
+    <NumComprobante>7</NumComprobante>
+    <NombreProducto>Leche Sachet 1 L.</NombreProducto>
+    <Cantidad>12</Cantidad>
+    <BonificacionTotal>125</BonificacionTotal>
+    <Total>675</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>17</IdCuerpo>
+    <Fecha>2020-04-04T00:00:00-03:00</Fecha>
+    <NumComprobante>7</NumComprobante>
+    <NombreProducto>Avena Integral</NombreProducto>
+    <Cantidad>2</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>75</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>18</IdCuerpo>
+    <Fecha>2020-05-17T00:00:00-03:00</Fecha>
+    <NumComprobante>8</NumComprobante>
+    <NombreProducto>Leche Sachet 1 L.</NombreProducto>
+    <Cantidad>9</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>675</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>19</IdCuerpo>
+    <Fecha>2020-05-17T00:00:00-03:00</Fecha>
+    <NumComprobante>8</NumComprobante>
+    <NombreProducto>Galletas Quaker por 250gr</NombreProducto>
+    <Cantidad>8</Cantidad>
+    <BonificacionTotal>184.37</BonificacionTotal>
+    <Total>1659.31</Total>
+  </Table1>
+</NewDataSet>

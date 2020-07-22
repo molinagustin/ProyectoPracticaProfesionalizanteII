@@ -1,0 +1,39 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+entCondicionIVA
+</name>
+</assembly>
+<members>
+<member name="T:entCondicionIVA.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:entCondicionIVA.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:entCondicionIVA.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="M:entCondicionIVA.eCondicionIVA.ObtenerCondicionesIVA">
+ <summary>
+ Obtiene una lista de eCondicionIVA y la devuelve
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:entCondicionIVA.eCondicionIVA.ObtenerCondicion(System.Int32)">
+ <summary>
+ Obtiene una condicion de IVA y la devuelve
+ </summary>
+ <param name="Id"></param>
+ <returns></returns>
+</member>
+</members>
+</doc>

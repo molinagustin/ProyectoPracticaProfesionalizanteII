@@ -1,0 +1,46 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CapaPresentacionGeneral
+</name>
+</assembly>
+<members>
+<member name="T:CapaPresentacionGeneral.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:CapaPresentacionGeneral.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:CapaPresentacionGeneral.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="M:CapaPresentacionGeneral.frmVistaPrincipal.AbrirFormularioHijo(System.String)">
+ <summary>
+ Funcion que permite detectar si un formulario hijo esta abierto dentro de uno padre
+ </summary>
+ <param name="NombreFormu">Nombre del formulario hijo</param>
+ <returns></returns>
+</member>
+<member name="M:CapaPresentacionGeneral.frmVistaPrincipal.CrearFormularioHijo(System.Windows.Forms.Form@,System.String)">
+ <summary>
+ Metodo que permite crear un nuevo formulario hijo y asignarselo a un formulario padre
+ </summary>
+ <param name="frmHijo">Formulario a crear</param>
+ <param name="NombreFormu">Nombre del formulario hijo</param>
+</member>
+<member name="M:CapaPresentacionGeneral.frmVistaPrincipal.Reactivacion(System.Windows.Forms.Form@)">
+ <summary>
+ Metodo que abre un dialogo con los formularios de reactivacion creados
+ </summary>
+ <param name="formulario">Tipo de formulario a crear</param>
+</member>
+</members>
+</doc>

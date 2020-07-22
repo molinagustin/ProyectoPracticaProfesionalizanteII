@@ -1,0 +1,74 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CapaPresentacionInformes
+</name>
+</assembly>
+<members>
+<member name="T:CapaPresentacionInformes.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:CapaPresentacionInformes.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:CapaPresentacionInformes.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:CapaPresentacionInformes.My.Resources.Resources.back">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CapaPresentacionInformes.My.Resources.Resources.table">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:CapaPresentacionInformes.frmDialogoInforme.informeClientes">
+ <summary>
+ Realiza y muestra un informe de los clientes
+ </summary>
+</member>
+<member name="M:CapaPresentacionInformes.frmDialogoInforme.informeVentas">
+ <summary>
+ Realiza y muestra un informe de las ventas realizadas entre 2 fechas
+ </summary>
+</member>
+<member name="M:CapaPresentacionInformes.frmInformes.estadisticaClientes">
+ <summary>
+ Muestra en un grafico de columnas una estadistica de clientes hasta la fecha
+ </summary>
+</member>
+<member name="M:CapaPresentacionInformes.frmInformes.estadisticaVentas">
+ <summary>
+ Muestra en un grafico de torta una estadistica de las ventas realizadas entre 2 fechas
+ </summary>
+</member>
+<member name="M:CapaPresentacionInformes.frmInformes.mostrarControles(System.Boolean)">
+ <summary>
+ Muestra u oculta los controles de fechas
+ </summary>
+ <param name="cond"></param>
+</member>
+<member name="M:CapaPresentacionInformes.frmInformes.mostrarChrCliente(System.Boolean)">
+ <summary>
+ Muestra u oculta el grafico de estadisticas de clientes
+ </summary>
+ <param name="cond"></param>
+</member>
+<member name="M:CapaPresentacionInformes.frmInformes.mostrarChrVentas(System.Boolean)">
+ <summary>
+ Muestra u oculta el grafico de estadisticas de ventas
+ </summary>
+ <param name="cond"></param>
+</member>
+</members>
+</doc>

@@ -1,0 +1,75 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="IdCliente" type="xs:int" minOccurs="0" />
+                <xs:element name="NombreCliente" type="xs:string" minOccurs="0" />
+                <xs:element name="TipoDocumento" type="xs:int" minOccurs="0" />
+                <xs:element name="NumeroDocumento" type="xs:string" minOccurs="0" />
+                <xs:element name="Domicilio" type="xs:string" minOccurs="0" />
+                <xs:element name="CondicionIva" type="xs:int" minOccurs="0" />
+                <xs:element name="Localidad" type="xs:int" minOccurs="0" />
+                <xs:element name="Activo" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <IdCliente>1</IdCliente>
+    <NombreCliente>Molina Agustin</NombreCliente>
+    <TipoDocumento>1</TipoDocumento>
+    <NumeroDocumento>20369643879</NumeroDocumento>
+    <Domicilio>Luis Ponce 840</Domicilio>
+    <CondicionIva>7</CondicionIva>
+    <Localidad>1</Localidad>
+    <Activo>1</Activo>
+  </Table1>
+  <Table1>
+    <IdCliente>2</IdCliente>
+    <NombreCliente>Lopez Martin</NombreCliente>
+    <TipoDocumento>6</TipoDocumento>
+    <NumeroDocumento>37123456</NumeroDocumento>
+    <Domicilio>Ricardo Petersen 860</Domicilio>
+    <CondicionIva>3</CondicionIva>
+    <Localidad>1</Localidad>
+    <Activo>1</Activo>
+  </Table1>
+  <Table1>
+    <IdCliente>3</IdCliente>
+    <NombreCliente>Zabala Angel</NombreCliente>
+    <TipoDocumento>1</TipoDocumento>
+    <NumeroDocumento>22112233441</NumeroDocumento>
+    <Domicilio>Agustin Alvarez 1234</Domicilio>
+    <CondicionIva>3</CondicionIva>
+    <Localidad>1</Localidad>
+    <Activo>1</Activo>
+  </Table1>
+  <Table1>
+    <IdCliente>6</IdCliente>
+    <NombreCliente>Molina Marchetti Cristian Agustin</NombreCliente>
+    <TipoDocumento>1</TipoDocumento>
+    <NumeroDocumento>20369643879</NumeroDocumento>
+    <Domicilio>Luis Ponce 840</Domicilio>
+    <CondicionIva>1</CondicionIva>
+    <Localidad>1</Localidad>
+    <Activo>1</Activo>
+  </Table1>
+  <Table1>
+    <IdCliente>9</IdCliente>
+    <NombreCliente>Juancito</NombreCliente>
+    <TipoDocumento>1</TipoDocumento>
+    <NumeroDocumento>12312312311</NumeroDocumento>
+    <Domicilio>LALALA</Domicilio>
+    <CondicionIva>11</CondicionIva>
+    <Localidad>3</Localidad>
+    <Activo>1</Activo>
+  </Table1>
+</NewDataSet>

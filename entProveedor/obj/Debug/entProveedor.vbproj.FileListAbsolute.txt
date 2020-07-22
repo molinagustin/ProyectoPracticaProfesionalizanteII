@@ -1,0 +1,57 @@
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\entProveedor\bin\Debug\entProveedor.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\entProveedor\bin\Debug\entProveedor.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\entProveedor\bin\Debug\entProveedor.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\entProveedor\bin\Debug\MySql.Data.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\entProveedor\bin\Debug\Google.Protobuf.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\entProveedor\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\entProveedor\bin\Debug\MySql.Data.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\entProveedor\obj\Debug\entProveedor.vbprojResolveAssemblyReference.cache
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\entProveedor\obj\Debug\entProveedor.Resources.resources
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\entProveedor\obj\Debug\entProveedor.vbproj.GenerateResource.Cache
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\entProveedor\obj\Debug\entProveedor.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\entProveedor\obj\Debug\entProveedor.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\entProveedor\obj\Debug\entProveedor.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\entProveedor.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\entProveedor.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\entProveedor.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\CapaDatos.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\CapaNegocio.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\MySql.Data.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\UtilidadesSQL.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\Google.Protobuf.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\CapaDatos.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\CapaDatos.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\CapaNegocio.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\CapaNegocio.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\MySql.Data.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\UtilidadesSQL.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\UtilidadesSQL.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entProveedor\obj\Debug\entProveedor.vbprojResolveAssemblyReference.cache
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entProveedor\obj\Debug\entProveedor.Resources.resources
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entProveedor\obj\Debug\entProveedor.vbproj.GenerateResource.Cache
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entProveedor\obj\Debug\entProveedor.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entProveedor\obj\Debug\entProveedor.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entProveedor\obj\Debug\entProveedor.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\entProveedor.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\entProveedor.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\entProveedor.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\CapaDatos.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\CapaNegocio.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\UtilidadesSQL.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\Google.Protobuf.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\BouncyCastle.Crypto.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\CapaDatos.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\CapaDatos.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\CapaNegocio.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\CapaNegocio.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\MySql.Data.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\UtilidadesSQL.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\UtilidadesSQL.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entProveedor\obj\Debug\entProveedor.vbprojResolveAssemblyReference.cache
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entProveedor\obj\Debug\entProveedor.Resources.resources
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entProveedor\obj\Debug\entProveedor.vbproj.GenerateResource.Cache
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entProveedor\obj\Debug\entProveedor.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entProveedor\obj\Debug\entProveedor.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entProveedor\obj\Debug\entProveedor.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entProveedor\bin\Debug\MySql.Data.dll

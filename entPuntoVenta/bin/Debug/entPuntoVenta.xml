@@ -1,0 +1,52 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+entPuntoVenta
+</name>
+</assembly>
+<members>
+<member name="T:entPuntoVenta.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:entPuntoVenta.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:entPuntoVenta.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:entPuntoVenta.ePuntoVenta.ObtenerPuntosVta">
+ <summary>
+ Obtiene un listado de ePuntosVta y lo devuelve
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:entPuntoVenta.ePuntoVenta.ObtenerPuntoVta(System.Int32)">
+ <summary>
+ Obtiene un punto de venta y lo devuelve
+ </summary>
+ <param name="Id">Numero de ID del punto de venta</param>
+ <returns></returns>
+</member>
+<member name="M:entPuntoVenta.ePuntoVenta.InsertarPuntoVta">
+ <summary>
+ Inserta los datos de un Punto de Venta en la base de datos
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:entPuntoVenta.ePuntoVenta.ActualizarPuntoVta(entPuntoVenta.ePuntoVenta@)">
+ <summary>
+ Actualiza los datos de un punto de venta existente
+ </summary>
+ <param name="ObjetoNuevo">Objeto con los datos a actualizar</param>
+ <returns></returns>
+</member>
+</members>
+</doc>

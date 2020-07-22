@@ -1,0 +1,12 @@
+d:\documentos\visual studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Formularios\bin\Debug\Formularios.exe.config
+d:\documentos\visual studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Formularios\bin\Debug\Formularios.exe
+d:\documentos\visual studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Formularios\bin\Debug\Formularios.pdb
+d:\documentos\visual studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Formularios\bin\Debug\Formularios.xml
+d:\documentos\visual studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Formularios\obj\Debug\Formularios.vbprojResolveAssemblyReference.cache
+d:\documentos\visual studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Formularios\obj\Debug\Formularios.frmVistaPrincipal.resources
+d:\documentos\visual studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Formularios\obj\Debug\Formularios.Resources.resources
+d:\documentos\visual studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Formularios\obj\Debug\Formularios.vbproj.GenerateResource.Cache
+d:\documentos\visual studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Formularios\obj\Debug\Formularios.exe
+d:\documentos\visual studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Formularios\obj\Debug\Formularios.xml
+d:\documentos\visual studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Formularios\obj\Debug\Formularios.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Formularios\obj\Debug\Formularios.frmFacturaGeneral.resources

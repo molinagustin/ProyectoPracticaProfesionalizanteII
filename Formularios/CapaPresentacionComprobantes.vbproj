@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{18AD86E4-9FEE-41DA-8FED-5A1E780B770C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>CapaPresentacionComprobantes.My.MyApplication</StartupObject>
+    <RootNamespace>CapaPresentacionComprobantes</RootNamespace>
+    <AssemblyName>CapaPresentacionComprobantes</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CapaPresentacionComprobantes.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CapaPresentacionComprobantes.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmFacturaGeneral.Designer.vb">
+      <DependentUpon>frmFacturaGeneral.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFacturaGeneral.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmFacturaGeneral.resx">
+      <DependentUpon>frmFacturaGeneral.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaPresentacionClientes\CapaPresentacionClientes.vbproj">
+      <Project>{0c98821e-4bcc-461d-9b95-29203c0ca765}</Project>
+      <Name>CapaPresentacionClientes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\entCliente\entCliente.vbproj">
+      <Project>{b7406045-a66e-4b00-a7fd-5995fa10289d}</Project>
+      <Name>entCliente</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\entCondicionIVA\entCondicionIVA.vbproj">
+      <Project>{b176371e-e799-4b10-9e2e-b7da1af89df6}</Project>
+      <Name>entCondicionIVA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\entProducto\entProducto.vbproj">
+      <Project>{2d573506-00ca-4415-a665-c4aa72da741f}</Project>
+      <Name>entProducto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\entStock\entStock.vbproj">
+      <Project>{4c02a6d9-c8af-4dc0-b8c9-1fcc6705b2e1}</Project>
+      <Name>entStock</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\entTarjeta\entTarjeta.vbproj">
+      <Project>{d9b196b4-8612-49ee-a5fe-733a8e24f8f4}</Project>
+      <Name>entTarjeta</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\entTipoDocumento\entTipoDocumento.vbproj">
+      <Project>{b3aae368-8b9f-4a11-98ca-76d2d7f24a85}</Project>
+      <Name>entTipoDocumento</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\entUnidadMedida\entUnidadMedida.vbproj">
+      <Project>{eaf37fa4-d741-45af-94ff-1b8b304a3c30}</Project>
+      <Name>entUnidadMedida</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\entUsuarioAFIP\entUsuarioAFIP.vbproj">
+      <Project>{2474bada-2dc2-4adf-919c-bdeb1e112e28}</Project>
+      <Name>entUsuarioAFIP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Facturas\entComprobantes.vbproj">
+      <Project>{29a39623-cd01-4ba2-b442-ed71069a7317}</Project>
+      <Name>entComprobantes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ParaPuppeteer\ParaPuppeteer.csproj">
+      <Project>{b56632d3-5c37-4080-8c50-d470b9a9745c}</Project>
+      <Name>ParaPuppeteer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insert.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\creditcard.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_drop16_h.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-remove.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+entCliente
+</name>
+</assembly>
+<members>
+<member name="T:entCliente.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:entCliente.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:entCliente.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="M:entCliente.eCliente.ObtenerClientes">
+ <summary>
+ Obtiene una lista de eClientes y la devuelve
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:entCliente.eCliente.ObtenerCliente(System.Int32)">
+ <summary>
+ Obtiene un cliente y lo devuelve
+ </summary>
+ <param name="Id">Numero de ID a consultar del cliente</param>
+ <returns></returns>
+</member>
+<member name="M:entCliente.eCliente.InsertarCliente">
+ <summary>
+ Inserta un cliente a la base de datos
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:entCliente.eCliente.ActualizarCliente(entCliente.eCliente@)">
+ <summary>
+ Actualiza los datos un cliente ya existente
+ </summary>
+ <param name="ObjetoNuevo">Objeto con los datos a actualizar del tipo eCliente</param>
+ <returns></returns>
+</member>
+</members>
+</doc>

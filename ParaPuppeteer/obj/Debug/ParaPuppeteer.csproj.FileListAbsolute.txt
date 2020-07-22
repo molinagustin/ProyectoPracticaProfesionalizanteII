@@ -1,0 +1,123 @@
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\ParaPuppeteer.dll.config
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\ParaPuppeteer.dll
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\ParaPuppeteer.pdb
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\Microsoft.Net.Http.Headers.dll
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\PuppeteerSharp.Contrib.Extensions.dll
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\PuppeteerSharp.dll
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\System.Buffers.dll
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\System.Net.Http.dll
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\Microsoft.Net.Http.Headers.xml
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\PuppeteerSharp.xml
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\PuppeteerSharp.Contrib.Extensions.xml
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\System.Buffers.xml
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\obj\Debug\ParaPuppeteer.csprojResolveAssemblyReference.cache
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\obj\Debug\ParaPuppeteer.dll
+C:\Users\marti\Documents\Visual Studio 2015\Projects\ParaPuppeteer\ParaPuppeteer\obj\Debug\ParaPuppeteer.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\ParaPuppeteer.dll.config
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\ParaPuppeteer.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\ParaPuppeteer.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Microsoft.Net.Http.Headers.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\PuppeteerSharp.Contrib.Extensions.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\PuppeteerSharp.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\System.Buffers.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\System.Net.Http.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Microsoft.Net.Http.Headers.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\PuppeteerSharp.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\PuppeteerSharp.Contrib.Extensions.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\System.Buffers.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\obj\Debug\ParaPuppeteer.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\obj\Debug\ParaPuppeteer.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\obj\Debug\ParaPuppeteer.csprojResolveAssemblyReference.cache
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Facturas.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Facturas.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Facturas.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\ParaPuppeteer.dll.config
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\ParaPuppeteer.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\ParaPuppeteer.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Facturas.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Microsoft.Net.Http.Headers.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Newtonsoft.Json.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\PuppeteerSharp.Contrib.Extensions.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\PuppeteerSharp.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\System.Buffers.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\System.Net.Http.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\System.Text.Encodings.Web.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Facturas.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Facturas.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Microsoft.AspNetCore.WebUtilities.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Microsoft.Net.Http.Headers.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Newtonsoft.Json.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\PuppeteerSharp.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\PuppeteerSharp.Contrib.Extensions.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\System.Buffers.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\System.Text.Encodings.Web.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\obj\Debug\ParaPuppeteer.csprojResolveAssemblyReference.cache
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\obj\Debug\ParaPuppeteer.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\obj\Debug\ParaPuppeteer.pdb

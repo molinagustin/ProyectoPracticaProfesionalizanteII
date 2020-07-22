@@ -1,0 +1,44 @@
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\entCondicionIVA.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\entCondicionIVA.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\entCondicionIVA.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\CapaDatos.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\CapaNegocio.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\MySql.Data.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\UtilidadesSQL.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\Google.Protobuf.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\CapaDatos.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\CapaDatos.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\CapaNegocio.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\CapaNegocio.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\UtilidadesSQL.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\UtilidadesSQL.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\MySql.Data.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entCondicionIVA\obj\Debug\entCondicionIVA.vbprojResolveAssemblyReference.cache
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entCondicionIVA\obj\Debug\entCondicionIVA.Resources.resources
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entCondicionIVA\obj\Debug\entCondicionIVA.vbproj.GenerateResource.Cache
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entCondicionIVA\obj\Debug\entCondicionIVA.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entCondicionIVA\obj\Debug\entCondicionIVA.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\entCondicionIVA\obj\Debug\entCondicionIVA.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\entCondicionIVA.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\entCondicionIVA.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\entCondicionIVA.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\CapaDatos.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\CapaNegocio.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\UtilidadesSQL.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\Google.Protobuf.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\BouncyCastle.Crypto.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\CapaDatos.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\CapaDatos.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\CapaNegocio.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\CapaNegocio.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\UtilidadesSQL.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\UtilidadesSQL.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\MySql.Data.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entCondicionIVA\obj\Debug\entCondicionIVA.vbprojResolveAssemblyReference.cache
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entCondicionIVA\obj\Debug\entCondicionIVA.Resources.resources
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entCondicionIVA\obj\Debug\entCondicionIVA.vbproj.GenerateResource.Cache
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entCondicionIVA\obj\Debug\entCondicionIVA.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entCondicionIVA\obj\Debug\entCondicionIVA.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entCondicionIVA\obj\Debug\entCondicionIVA.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entCondicionIVA\bin\Debug\MySql.Data.dll

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+entTarjeta
+</name>
+</assembly>
+<members>
+<member name="T:entTarjeta.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:entTarjeta.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:entTarjeta.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:entTarjeta.eTarjeta.ObtenerTarjetasDebito">
+ <summary>
+ Obtiene una lista de las tarjetas de debito y la devuelve
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:entTarjeta.eTarjeta.ObtenerTarjetasCredito">
+ <summary>
+ Obtiene una lista de las tarjetas de credito y la devuelve
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:entTarjeta.eTarjeta.ObtenerTarjeta(System.Int32)">
+ <summary>
+ Obtiene una tarjeta en particular
+ </summary>
+ <param name="Id">Numero de Id de la tarjeta a consultar</param>
+ <returns></returns>
+</member>
+</members>
+</doc>

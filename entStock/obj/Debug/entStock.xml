@@ -1,0 +1,52 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+entStock
+</name>
+</assembly>
+<members>
+<member name="T:entStock.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:entStock.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:entStock.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:entStock.eStock.ObtenerTodosStocks">
+ <summary>
+ Obtiene una lista de eStocks y la devuelve
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:entStock.eStock.ObtenerStockProducto(System.Int32)">
+ <summary>
+ Obtiene el stock de un producto y lo devuelve
+ </summary>
+ <param name="IdProducto">Numero de ID del producto cuyo stock se quiere saber</param>
+ <returns></returns>
+</member>
+<member name="M:entStock.eStock.InsertarStock">
+ <summary>
+ Inserta los datos del stock de un producto en la base de datos
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:entStock.eStock.ActualizarStock(entStock.eStock@)">
+ <summary>
+ Actualiza los datos del stock existente de un producto
+ </summary>
+ <param name="ObjetoNuevo">Objeto con los datos a actualizar</param>
+ <returns></returns>
+</member>
+</members>
+</doc>

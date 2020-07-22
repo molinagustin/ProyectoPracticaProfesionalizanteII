@@ -1,0 +1,238 @@
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\obj\Debug\CapaPresentacionGeneral.vbprojResolveAssemblyReference.cache
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\obj\Debug\CapaPresentacionGeneral.frmVistaPrincipal.resources
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\obj\Debug\CapaPresentacionGeneral.Resources.resources
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\obj\Debug\CapaPresentacionGeneral.vbproj.GenerateResource.Cache
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionGeneral.exe.config
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionGeneral.exe
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionGeneral.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionGeneral.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionComprobantes.exe
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionComprobantes.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionComprobantes.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\obj\Debug\CapaPresentacionGeneral.exe
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\obj\Debug\CapaPresentacionGeneral.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\obj\Debug\CapaPresentacionGeneral.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionClientes.exe
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionProductos.exe
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionUsuarioAFIP.exe
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionClientes.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionClientes.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionProductos.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionProductos.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionUsuarioAFIP.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionUsuarioAFIP.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionLocalidades.exe
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionLocalidades.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionLocalidades.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\obj\Debug\CapaPresentacionGeneral.vbprojResolveAssemblyReference.cache
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\obj\Debug\CapaPresentacionGeneral.vbproj.CapaPresentacionGeneral.exe.config
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\obj\Debug\CapaPresentacionGeneral.frmVistaPrincipal.resources
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\obj\Debug\CapaPresentacionGeneral.Resources.resources
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\obj\Debug\CapaPresentacionGeneral.vbproj.GenerateResource.Cache
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionGeneral.exe.config
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionGeneral.exe
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionGeneral.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionGeneral.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionClientes.exe
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionComprobantes.exe
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionLocalidades.exe
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionProductos.exe
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionUsuarioAFIP.exe
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entCliente.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entLocalidad.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entProducto.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entUnidadMedida.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\ParaPuppeteer.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entProveedor.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entRubro.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaDatos.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaNegocio.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\MySql.Data.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Facturas.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\PuppeteerSharp.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\UtilidadesSQL.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Google.Protobuf.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Newtonsoft.Json.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\System.Buffers.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Microsoft.Net.Http.Headers.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionClientes.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionClientes.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionLocalidades.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionLocalidades.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionProductos.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionProductos.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionUsuarioAFIP.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionUsuarioAFIP.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entCliente.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entCliente.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entLocalidad.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entLocalidad.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entProducto.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entProducto.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entUnidadMedida.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entUnidadMedida.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionComprobantes.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionComprobantes.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\ParaPuppeteer.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entProveedor.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entProveedor.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entRubro.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entRubro.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaDatos.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaDatos.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaNegocio.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaNegocio.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\MySql.Data.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Facturas.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Facturas.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\PuppeteerSharp.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\UtilidadesSQL.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\UtilidadesSQL.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Newtonsoft.Json.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\System.Buffers.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Microsoft.Net.Http.Headers.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\obj\Debug\CapaPresentacionGeneral.exe
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\obj\Debug\CapaPresentacionGeneral.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\obj\Debug\CapaPresentacionGeneral.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entUsuarioAFIP.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entUsuarioAFIP.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entUsuarioAFIP.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entTipoDocumento.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entTipoDocumento.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entTipoDocumento.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entCondicionIVA.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entCondicionIVA.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entCondicionIVA.xml
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entProvincia.dll
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entProvincia.pdb
+C:\Users\marti\Downloads\ProyectoPracticaProfesionalizanteII 13-01-2020\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entProvincia.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entCliente.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entLocalidad.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entProducto.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entUnidadMedida.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\ParaPuppeteer.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entTipoDocumento.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entCondicionIVA.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entProvincia.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entProveedor.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entRubro.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entUsuarioAFIP.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaDatos.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaNegocio.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\MySql.Data.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Facturas.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\PuppeteerSharp.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\UtilidadesSQL.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Google.Protobuf.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\BouncyCastle.Crypto.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Newtonsoft.Json.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\System.Buffers.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Microsoft.Net.Http.Headers.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\System.Text.Encodings.Web.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entCliente.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entCliente.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entLocalidad.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entLocalidad.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entProducto.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entProducto.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entUnidadMedida.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entUnidadMedida.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\ParaPuppeteer.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entTipoDocumento.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entTipoDocumento.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entCondicionIVA.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entCondicionIVA.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entProvincia.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entProvincia.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entProveedor.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entProveedor.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entRubro.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entRubro.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entUsuarioAFIP.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entUsuarioAFIP.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaDatos.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaDatos.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaNegocio.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaNegocio.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\MySql.Data.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Facturas.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Facturas.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\PuppeteerSharp.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\UtilidadesSQL.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\UtilidadesSQL.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Newtonsoft.Json.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Microsoft.AspNetCore.WebUtilities.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\System.Buffers.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\Microsoft.Net.Http.Headers.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\System.Text.Encodings.Web.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionConfiguracion.exe
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionConfiguracion.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionConfiguracion.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entTarjeta.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entTarjeta.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entTarjeta.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionProveedores.exe
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionProveedores.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionProveedores.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionInformes.exe
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionInformes.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CapaPresentacionInformes.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entInformes.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entInformes.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entInformes.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CrystalDecisions.Shared.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\AxShockwaveFlashObjects.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\ShockwaveFlashObjects.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\stdole.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entStock.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entStock.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionGeneral\bin\Debug\entStock.xml
