@@ -81,3 +81,46 @@ D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Ca
 D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\entStock.dll
 D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\entStock.pdb
 D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\entStock.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\CapaPresentacionProductos.exe.config
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\CapaPresentacionProductos.exe
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\CapaPresentacionProductos.pdb
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\CapaPresentacionProductos.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\CapaPresentacionProveedores.exe
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\entProducto.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\entProveedor.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\entRubro.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\entStock.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\entUnidadMedida.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\CapaDatos.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\CapaNegocio.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\MySql.Data.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\UtilidadesSQL.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\Google.Protobuf.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\CapaPresentacionProveedores.pdb
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\CapaPresentacionProveedores.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\entProducto.pdb
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\entProducto.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\entProveedor.pdb
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\entProveedor.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\entRubro.pdb
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\entRubro.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\entStock.pdb
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\entStock.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\entUnidadMedida.pdb
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\entUnidadMedida.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\CapaDatos.pdb
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\CapaDatos.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\CapaNegocio.pdb
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\CapaNegocio.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\MySql.Data.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\UtilidadesSQL.pdb
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\bin\Debug\UtilidadesSQL.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\obj\Debug\CapaPresentacionProductos.vbprojResolveAssemblyReference.cache
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\obj\Debug\CapaPresentacionProductos.frmGestionProductos.resources
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\obj\Debug\CapaPresentacionProductos.frmVistaProductos.resources
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\obj\Debug\CapaPresentacionProductos.Resources.resources
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\obj\Debug\CapaPresentacionProductos.vbproj.GenerateResource.Cache
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\obj\Debug\CapaPresentacionProductos.exe
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\obj\Debug\CapaPresentacionProductos.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProductos\obj\Debug\CapaPresentacionProductos.pdb

@@ -119,6 +119,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\entProducto\entProducto.vbproj">
+      <Project>{2d573506-00ca-4415-a665-c4aa72da741f}</Project>
+      <Name>entProducto</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Facturas\entComprobantes.vbproj">
       <Project>{29a39623-cd01-4ba2-b442-ed71069a7317}</Project>
       <Name>entComprobantes</Name>

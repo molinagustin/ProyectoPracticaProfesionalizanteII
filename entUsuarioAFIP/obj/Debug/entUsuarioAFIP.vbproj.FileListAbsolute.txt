@@ -42,3 +42,25 @@ D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\en
 D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entUsuarioAFIP\obj\Debug\entUsuarioAFIP.xml
 D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entUsuarioAFIP\obj\Debug\entUsuarioAFIP.pdb
 D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\entUsuarioAFIP\bin\Debug\MySql.Data.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\entUsuarioAFIP\bin\Debug\entUsuarioAFIP.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\entUsuarioAFIP\bin\Debug\entUsuarioAFIP.pdb
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\entUsuarioAFIP\bin\Debug\entUsuarioAFIP.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\entUsuarioAFIP\bin\Debug\CapaDatos.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\entUsuarioAFIP\bin\Debug\CapaNegocio.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\entUsuarioAFIP\bin\Debug\MySql.Data.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\entUsuarioAFIP\bin\Debug\UtilidadesSQL.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\entUsuarioAFIP\bin\Debug\Google.Protobuf.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\entUsuarioAFIP\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\entUsuarioAFIP\bin\Debug\CapaDatos.pdb
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\entUsuarioAFIP\bin\Debug\CapaDatos.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\entUsuarioAFIP\bin\Debug\CapaNegocio.pdb
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\entUsuarioAFIP\bin\Debug\CapaNegocio.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\entUsuarioAFIP\bin\Debug\UtilidadesSQL.pdb
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\entUsuarioAFIP\bin\Debug\UtilidadesSQL.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\entUsuarioAFIP\bin\Debug\MySql.Data.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\entUsuarioAFIP\obj\Debug\entUsuarioAFIP.vbprojResolveAssemblyReference.cache
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\entUsuarioAFIP\obj\Debug\entUsuarioAFIP.Resources.resources
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\entUsuarioAFIP\obj\Debug\entUsuarioAFIP.vbproj.GenerateResource.Cache
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\entUsuarioAFIP\obj\Debug\entUsuarioAFIP.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\entUsuarioAFIP\obj\Debug\entUsuarioAFIP.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\entUsuarioAFIP\obj\Debug\entUsuarioAFIP.pdb

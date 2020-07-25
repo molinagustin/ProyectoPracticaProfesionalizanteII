@@ -12,11 +12,9 @@ Imports CapaPresentacionClientes
 Public Class frmFacturaGeneral
 #Region "Campos"
     'Clase para poder utilizar el puppeteer y sus correspondientes propiedades
-    Private facturador As New clsFacturacion
-    Private _CondicionIva As clsFacturacion.CondicionIVA
-    Private _tipoDoc As clsFacturacion.TipoDocumento
-    Private _CondicionVenta As clsFacturacion.CondicionVenta
+    Private facturador As New clsFacturador
 
+    Private _Encabezado As New eEncabezadoComprobante
     'Listas para añadir los datos al cuerpo del comprobante y traer la lista de productos
     Private _ListaItems As New List(Of eCuerpoComprobante)
     Private _ListaProductos As New List(Of eProducto)
@@ -25,38 +23,13 @@ Public Class frmFacturaGeneral
     Private _NroDoc As String
     Private _IdProdSelec As Integer = -1
     Private _IdClien As Integer = -1
+    Private _Cliente As New eCliente
 
     'Creo una bandera para utilizar en el cbo de productos
     Dim flag As Integer = 0
 #End Region
 
 #Region "Propiedades"
-    Public Property CondicionIva As clsFacturacion.CondicionIVA
-        Get
-            Return _CondicionIva
-        End Get
-        Set(value As clsFacturacion.CondicionIVA)
-            _CondicionIva = value
-        End Set
-    End Property
-
-    Public Property TipoDoc As clsFacturacion.TipoDocumento
-        Get
-            Return _tipoDoc
-        End Get
-        Set(value As clsFacturacion.TipoDocumento)
-            _tipoDoc = value
-        End Set
-    End Property
-
-    Public Property CondicionVenta As clsFacturacion.CondicionVenta
-        Get
-            Return _CondicionVenta
-        End Get
-        Set(value As clsFacturacion.CondicionVenta)
-            _CondicionVenta = value
-        End Set
-    End Property
 
     Public Property ListaItems As List(Of eCuerpoComprobante)
         Get
@@ -109,6 +82,24 @@ Public Class frmFacturaGeneral
         End Get
         Set(value As Integer)
             _IdClien = value
+        End Set
+    End Property
+
+    Public Property Encabezado As eEncabezadoComprobante
+        Get
+            Return _Encabezado
+        End Get
+        Set(value As eEncabezadoComprobante)
+            _Encabezado = value
+        End Set
+    End Property
+
+    Public Property Cliente As eCliente
+        Get
+            Return _Cliente
+        End Get
+        Set(value As eCliente)
+            _Cliente = value
         End Set
     End Property
 #End Region
@@ -200,10 +191,13 @@ Public Class frmFacturaGeneral
             flag = 1
 
             'Funciones asincronas (Descargar Navegador, Abrirlo, Ingresar con los datos pasados e ir a los comprobantes en linea)
-            'Await Task.Run(Function() facturador.DescargarNavegador)
-            'Await Task.Run(Function() facturador.AbrirNavegador)
-            'Await Task.Run(Function() facturador.Ingreso())
-            'Await Task.Run(Function() facturador.IrAComprobantesEnLinea())
+            Await Task.Run(Function() facturador.DescargarNavegador)
+            Await Task.Run(Function() facturador.AbrirNavegador)
+            Await Task.Run(Function() facturador.IrPagAfip)
+            Await Task.Run(Function() facturador.IngresoCUIT())
+            Await Task.Run(Function() facturador.IngresoPass())
+            Await Task.Run(Function() facturador.IrAComprobantesEnLinea())
+            Await Task.Run(Function() facturador.IngresarEmpresa())
 
         Catch ex As Exception
             MsgBox("Error: " & ex.Message, MsgBoxStyle.Critical, Text)
@@ -337,24 +331,88 @@ Public Class frmFacturaGeneral
     'GENERAR FACTURA
     Private Async Sub btnGenerarFactura_Click(sender As Object, e As EventArgs) Handles btnGenerarFactura.Click
         Try
-            'Creo un nuevo objeto y le asigno el resultado del MessageBox creado
-            Dim resultado As DialogResult = MessageBox.Show("CONFIRME LA EMISION DEL COMPROBANTE", "CONFIRMACION", MessageBoxButtons.YesNo, MessageBoxIcon.Warning)
+            If ListaItems.Count = 0 Then
+                Throw New Exception("NO HA INGRESADO NINGUN PRODUCTO")
+            Else
+                'Guardo el encabezado
 
-            'Si se confirma la accion, se procede a la emision de la factura
-            If resultado = DialogResult.Yes Then
-                'Guardo el valor de la condicion IVA
-                CondicionIva = cboCondicionIva.SelectedValue
+                With Encabezado
+                    .TipoComprobante = 3
+                    .ConceptoInc = "Productos"
+                    .Fecha = dtpFechaFactura.Value
+                    .PuntoVta = 1
+                End With
+
+                If rbtContado.Checked Then
+                    Encabezado.FormaPago = 1
+                ElseIf rbtTarjetaCredito.Checked Then
+                    Encabezado.FormaPago = 3
+                    If txtTarjetaCredito.Text.Count = 0 Then
+                        Throw New Exception("DEBE INGRESAR EL NRO DE LA TARJETA DE CREDITO")
+                    Else
+                        Encabezado.NumeroTarjCredito = txtTarjetaCredito.Text
+                    End If
+                ElseIf rbtTarjetaDebito.Checked Then
+                    Encabezado.FormaPago = 2
+                    If txtTarjetaDebito.Text.Count = 0 Then
+                        Throw New Exception("DEBE INGRESAR EL NRO DE LA TARJETA DE DEBITO")
+                    Else
+                        Encabezado.NumeroTarjDebito = txtTarjetaDebito.Text
+                    End If
+                End If
+
+
+
 
                 'Habria que guardar el valor del total que tienen el txtTotal
+                Dim ValorTotal As Double = 0
+                For Each valor In ListaItems
+                    ValorTotal += valor.PrecioUnitario
+                Next
+                If ValorTotal >= 1000 And txtNumDoc.Text = "" Then
+                    Throw New Exception("DEBE INGRESAR EL NUMERO DE DOCUMENTO DEL CLIENTE")
+                Else
 
-                'Comienzo la emision del comprobante
-                Await Task.Run(Function() facturador.GenerarComprobante(clsFacturacion.TipoComprobante.FacturaC, FechaFac,
-                                clsFacturacion.ConceptosIncluir.Productos, CondicionIva, TipoDoc, NroDoc,
-                                 CondicionVenta))
+                    If Cliente.IdCliente > 0 Then
+                        With Encabezado
+                            .CondicionIva = Cliente.CondicionIva
+                            .Cliente = Cliente.IdCliente
+                        End With
+                    Else
+                        With Encabezado
+                            .CondicionIva = Cliente.CondicionIva
+                        End With
+                    End If
 
-            Else
-                MsgBox("SE CANCELO LA EMISION DEL COMPROBANTE", MsgBoxStyle.Information, Text)
+                    facturador.Encabezado = Encabezado
+                    facturador.Items = ListaItems
+                    facturador.ListaProductos = ListaProductos
+                    'Creo un nuevo objeto y le asigno el resultado del MessageBox creado
+                    Dim resultado As DialogResult = MessageBox.Show("CONFIRME LA EMISION DEL COMPROBANTE", "CONFIRMACION", MessageBoxButtons.YesNo, MessageBoxIcon.Warning)
+
+                    'Si se confirma la accion, se procede a la emision de la factura
+                    If resultado = DialogResult.Yes Then
+
+
+                        'Comienzo la emision del comprobante
+                        Await Task.Run(Function() facturador.IngresarEncabezado())
+                        Await Task.Run(Function() facturador.IngresarPuntoVenta())
+                        Await Task.Run(Function() facturador.IngresarTipoComp())
+                        Await Task.Run(Function() facturador.IngresarFecha())
+                        Await Task.Run(Function() facturador.IngresarConcepIncluir())
+                        Await Task.Run(Function() facturador.IngresarCondIVA())
+                        Await Task.Run(Function() facturador.IngresarTipoDoc(Cliente.TipoDocumento))
+                        Await Task.Run(Function() facturador.IngresarNroDoc(Cliente.NumeroDocumento))
+                        Await Task.Run(Function() facturador.IngresarFormaPago())
+                        Await Task.Run(Function() facturador.IngresarItems())
+                        Await Task.Run(Function() facturador.Terminar())
+
+                    Else
+                        MsgBox("SE CANCELO LA EMISION DEL COMPROBANTE", MsgBoxStyle.Information, Text)
+                    End If
+                End If
             End If
+
 
         Catch ex As Exception
             MsgBox("Error: " & ex.Message, MsgBoxStyle.Critical, Text)
@@ -365,7 +423,6 @@ Public Class frmFacturaGeneral
     Private Sub CheckedChanged(sender As Object, e As EventArgs) Handles rbtContado.CheckedChanged, rbtTarjetaCredito.CheckedChanged, rbtTarjetaDebito.CheckedChanged
         If rbtContado.Checked = True Then
             'Guardo el valor en la condicion venta
-            CondicionVenta = clsFacturacion.CondicionVenta.Contado
 
             cboTarjetaDebito.Enabled = False
             cboTarjetaCredito.Enabled = False
@@ -377,8 +434,6 @@ Public Class frmFacturaGeneral
             txtTarjetaCredito.Text = ""
 
         ElseIf rbtTarjetaDebito.Checked = True Then
-            'Guardo el valor en la condicion venta
-            CondicionVenta = clsFacturacion.CondicionVenta.TarjetaDebito
 
             'Creo un objeto para las tarjetas
             Dim tarjetas As New eTarjeta
@@ -397,8 +452,6 @@ Public Class frmFacturaGeneral
             txtTarjetaCredito.Text = ""
 
         ElseIf rbtTarjetaCredito.Checked = True Then
-            'Guardo el valor en la condicion venta
-            CondicionVenta = clsFacturacion.CondicionVenta.TarjetaCredito
 
             'Creo un objeto para las tarjetas
             Dim tarjetas As New eTarjeta

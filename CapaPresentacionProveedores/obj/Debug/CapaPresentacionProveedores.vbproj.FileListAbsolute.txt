@@ -26,3 +26,31 @@ D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Ca
 D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\obj\Debug\CapaPresentacionProveedores.exe
 D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\obj\Debug\CapaPresentacionProveedores.xml
 D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\obj\Debug\CapaPresentacionProveedores.pdb
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\bin\Debug\CapaPresentacionProveedores.exe.config
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\bin\Debug\CapaPresentacionProveedores.exe
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\bin\Debug\CapaPresentacionProveedores.pdb
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\bin\Debug\CapaPresentacionProveedores.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\bin\Debug\entProveedor.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\bin\Debug\CapaDatos.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\bin\Debug\CapaNegocio.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\bin\Debug\MySql.Data.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\bin\Debug\UtilidadesSQL.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\bin\Debug\Google.Protobuf.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\bin\Debug\entProveedor.pdb
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\bin\Debug\entProveedor.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\bin\Debug\CapaDatos.pdb
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\bin\Debug\CapaDatos.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\bin\Debug\CapaNegocio.pdb
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\bin\Debug\CapaNegocio.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\bin\Debug\MySql.Data.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\bin\Debug\UtilidadesSQL.pdb
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\bin\Debug\UtilidadesSQL.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\obj\Debug\CapaPresentacionProveedores.vbprojResolveAssemblyReference.cache
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\obj\Debug\CapaPresentacionProveedores.frmDialogoProveedores.resources
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\obj\Debug\CapaPresentacionProveedores.frmGestionProveedores.resources
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\obj\Debug\CapaPresentacionProveedores.Resources.resources
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\obj\Debug\CapaPresentacionProveedores.vbproj.GenerateResource.Cache
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\obj\Debug\CapaPresentacionProveedores.exe
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\obj\Debug\CapaPresentacionProveedores.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionProveedores\obj\Debug\CapaPresentacionProveedores.pdb

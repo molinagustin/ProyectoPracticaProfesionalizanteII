@@ -60,3 +60,34 @@ D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\Ca
 D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\bin\Debug\MySql.Data.xml
 D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\bin\Debug\UtilidadesSQL.pdb
 D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\bin\Debug\UtilidadesSQL.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\bin\Debug\CapaPresentacionLocalidades.exe.config
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\bin\Debug\CapaPresentacionLocalidades.exe
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\bin\Debug\CapaPresentacionLocalidades.pdb
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\bin\Debug\CapaPresentacionLocalidades.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\bin\Debug\entLocalidad.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\bin\Debug\entProvincia.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\bin\Debug\CapaDatos.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\bin\Debug\CapaNegocio.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\bin\Debug\MySql.Data.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\bin\Debug\UtilidadesSQL.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\bin\Debug\Google.Protobuf.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\bin\Debug\entLocalidad.pdb
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\bin\Debug\entLocalidad.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\bin\Debug\entProvincia.pdb
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\bin\Debug\entProvincia.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\bin\Debug\CapaDatos.pdb
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\bin\Debug\CapaDatos.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\bin\Debug\CapaNegocio.pdb
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\bin\Debug\CapaNegocio.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\bin\Debug\MySql.Data.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\bin\Debug\UtilidadesSQL.pdb
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\bin\Debug\UtilidadesSQL.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\obj\Debug\CapaPresentacionLocalidades.vbprojResolveAssemblyReference.cache
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\obj\Debug\CapaPresentacionLocalidades.frmDialogoLocalidades.resources
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\obj\Debug\CapaPresentacionLocalidades.frmGestionLocalidades.resources
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\obj\Debug\CapaPresentacionLocalidades.Resources.resources
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\obj\Debug\CapaPresentacionLocalidades.vbproj.GenerateResource.Cache
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\obj\Debug\CapaPresentacionLocalidades.exe
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\obj\Debug\CapaPresentacionLocalidades.xml
+C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\CapaPresentacionLocalidades\obj\Debug\CapaPresentacionLocalidades.pdb
