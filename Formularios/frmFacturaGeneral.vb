@@ -361,14 +361,8 @@ Public Class frmFacturaGeneral
                     End If
                 End If
 
-
-
-
                 'Habria que guardar el valor del total que tienen el txtTotal
-                Dim ValorTotal As Double = 0
-                For Each valor In ListaItems
-                    ValorTotal += valor.PrecioUnitario
-                Next
+                Dim ValorTotal As Double = Convert.ToDouble(txtTotal.Text)
                 If ValorTotal >= 1000 And txtNumDoc.Text = "" Then
                     Throw New Exception("DEBE INGRESAR EL NUMERO DE DOCUMENTO DEL CLIENTE")
                 Else
@@ -393,7 +387,7 @@ Public Class frmFacturaGeneral
                     'Si se confirma la accion, se procede a la emision de la factura
                     If resultado = DialogResult.Yes Then
 
-
+                        Dim NumeroTarjeta As String = If(Encabezado.FormaPago = 2, Encabezado.NumeroTarjCredito, Encabezado.NumeroTarjDebito)
                         'Comienzo la emision del comprobante
                         Await Task.Run(Function() facturador.IngresarEncabezado())
                         Await Task.Run(Function() facturador.IngresarPuntoVenta())
@@ -403,7 +397,7 @@ Public Class frmFacturaGeneral
                         Await Task.Run(Function() facturador.IngresarCondIVA())
                         Await Task.Run(Function() facturador.IngresarTipoDoc(Cliente.TipoDocumento))
                         Await Task.Run(Function() facturador.IngresarNroDoc(Cliente.NumeroDocumento))
-                        Await Task.Run(Function() facturador.IngresarFormaPago())
+                        Await Task.Run(Function() facturador.IngresarFormaPago(Convert.ToString(Encabezado.FormaPago), NumeroTarjeta))
                         Await Task.Run(Function() facturador.IngresarItems())
                         Await Task.Run(Function() facturador.Terminar())
 
@@ -412,8 +406,6 @@ Public Class frmFacturaGeneral
                     End If
                 End If
             End If
-
-
         Catch ex As Exception
             MsgBox("Error: " & ex.Message, MsgBoxStyle.Critical, Text)
         End Try

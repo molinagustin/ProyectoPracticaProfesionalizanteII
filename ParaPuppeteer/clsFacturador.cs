@@ -197,12 +197,14 @@ namespace ParaPuppeteer
         #endregion
 
         #region "Funciones"
+        //Se descarga el navegador chromium
         public async Task<bool> DescargarNavegador()
         {
             BrowserFetcher browserFetcher = new BrowserFetcher(new BrowserFetcherOptions
             {
                 Path = this.Path
             });
+
             RevisionInfo res = await browserFetcher.DownloadAsync(BrowserFetcher.DefaultRevision);
             this.Options = new LaunchOptions
             {
@@ -230,9 +232,10 @@ namespace ParaPuppeteer
 
 
         }
-
+        //Se dirige a la pagina de la afip
         public async Task IrPagAfip()
         {
+            //Aca se impide que el navegador carge contenido de la pagina para lograr que la navegacion sea mas rapida
             await Page.SetRequestInterceptionAsync(true);
             Page.Request += (sender, e) =>
             {
@@ -245,6 +248,7 @@ namespace ParaPuppeteer
                     e.Request.ContinueAsync();
                 }
             };
+
             try
             {
                 await Page.GoToAsync(this.URL);
@@ -257,7 +261,7 @@ namespace ParaPuppeteer
 
         }
 
-        //funcion donde se hace login en la pagina de AFIP
+        //funcion donde se hace login en la pagina de AFIP. Se ingresa el cuil
         public async Task IngresoCUIT()
         {
             //var btnIngr = await Page.QuerySelectorAsync("#F1\\:btnSiguiente"); ///buscar algo para esperar
@@ -274,7 +278,7 @@ namespace ParaPuppeteer
                 throw new Exception(e.Message, e);
             }
         }
-
+        //se ingresa la contraseña
         public async Task IngresoPass()
         {
             var btnIngr = await Page.QuerySelectorAsync("#F1\\:btnSiguiente"); ///buscar algo para esperar
@@ -305,6 +309,8 @@ namespace ParaPuppeteer
                 if (btnComprantes != null)
                 {
                     await btnComprantes.ClickAsync();
+
+                    //Este evento detecta la pestaña de comprobantes en linea que se abre al hacer click
                     Browser.TargetCreated += async (sender, e) =>
                     {
                         if (e.Target.Url.Substring(0, URLComprobantes.Length).Equals(URLComprobantes))
@@ -517,11 +523,29 @@ namespace ParaPuppeteer
                     case 1: //CUIT
                         await NewPage.SelectAsync("select#idtipodocreceptor", "80");
                         break;
-                    case 2: //CUIL
-                        await NewPage.SelectAsync("select#idtipodocreceptor", "96");
+                    case 2: //CDI
+                        await NewPage.SelectAsync("select#idtipodocreceptor", "87");
+                        break;
+                    case 3: //LE
+                        await NewPage.SelectAsync("select#idtipodocreceptor", "89");
+                        break;
+                    case 4: //LC
+                        await NewPage.SelectAsync("select#idtipodocreceptor", "90");
+                        break;
+                    case 5: //CI Extranjera
+                        await NewPage.SelectAsync("select#idtipodocreceptor", "91");
                         break;
                     case 6: //DNI
                         await NewPage.SelectAsync("select#idtipodocreceptor", "96");
+                        break;
+                    case 7: //Pasaporte
+                        await NewPage.SelectAsync("select#idtipodocreceptor", "94");
+                        break;
+                    case 8: //CI policia Federal
+                        await NewPage.SelectAsync("select#idtipodocreceptor", "00");
+                        break;
+                    case 9: //Certificado de migracion
+                        await NewPage.SelectAsync("select#idtipodocreceptor", "30");
                         break;
                 }
             }
@@ -556,29 +580,55 @@ namespace ParaPuppeteer
             }
         }
 
-        public async Task IngresarFormaPago()
+        public async Task IngresarFormaPago(string NroPago, string NroTarjeta = "")
         {
             try
             {
                 string Forma = "#formadepago";
-                string Numero = "1";
                 switch (Encabezado.FormaPago)
                 {
                     case 1://Contado
-                        Numero = "1";
+                        NroPago = "1";
                         break;
                     case 2:// Tarjeta debito
-                        Numero = "2";
+                        NroPago = "2";
                         break;
                     case 3: //Tarjeta debito
-                        Numero = "3";
+                        NroPago = "3";
+                        break;
+                    case 4: //Cuenta Corriente
+                        NroPago = "4";
+                        break;
+                    case 5: //Cheque
+                        NroPago = "5";
+                        break;
+                    case 6: //Ticket
+                        NroPago = "6";
+                        break;
+                    case 7: //Otro
+                        NroPago = "7";
                         break;
 
                 }
-                var inputFormaPago = await NewPage.QuerySelectorAsync(Forma + Numero);
+                var inputFormaPago = await NewPage.QuerySelectorAsync(Forma + NroPago);
                 if (inputFormaPago != null)
                 {
                     await inputFormaPago.ClickAsync();
+
+                    if (NroPago == "2" || NroPago == "3")
+                    {
+                        string IdTarjeta = NroPago == "2" ? "#tarjeta_nro_debito1" : "#tarjeta_nro_credito1";
+
+                        var inputTarjeta = await NewPage.QuerySelectorAsync(IdTarjeta);
+                        if (inputTarjeta != null)
+                        {
+                            //Se ingresa el nro de documento
+                            if (NroTarjeta.Length != 0)
+                            {
+                                await inputTarjeta.EvaluateFunctionAsync<dynamic>("(el, value) => el.value = value", NroTarjeta);
+                            }
+                        }
+                    }
 
                     //se presona el boton siguiente para pasar al siguiente formulario
                     var btnSiguiente3 = await NewPage.QuerySelectorAsync("#formulario > input[type=button]:nth-child(4)");
