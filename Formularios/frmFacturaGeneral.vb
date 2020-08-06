@@ -496,13 +496,11 @@ Public Class frmFacturaGeneral
                 'Guardo el ID del cliente seleccionado
                 IdClien = .IdCli
 
-                'Creo un objeto para buscar los datos del cliente
-                Dim cliente As New eCliente
                 'Autoasigno los datos encontrados al objeto que llamo al metodo
-                cliente = cliente.ObtenerCliente(IdClien)
+                Cliente = Cliente.ObtenerCliente(IdClien)
 
                 'Le asigno los datos encontrados a los controles
-                With cliente
+                With Cliente
                     cboTipoDoc.SelectedValue = .TipoDocumento
                     txtNumDoc.Text = .NumeroDocumento
                     txtNombreCliente.Text = .NombreCliente

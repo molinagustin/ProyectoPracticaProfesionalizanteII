@@ -179,3 +179,19 @@ C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\Pa
 C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\obj\Debug\ParaPuppeteer.csprojResolveAssemblyReference.cache
 C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\obj\Debug\ParaPuppeteer.dll
 C:\Users\marti\Desktop\Final PP2\FinalGit\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\obj\Debug\ParaPuppeteer.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\entProducto.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\CapaDatos.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\CapaNegocio.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\MySql.Data.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\UtilidadesSQL.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\Google.Protobuf.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\BouncyCastle.Crypto.dll
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\entProducto.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\entProducto.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\CapaDatos.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\CapaDatos.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\CapaNegocio.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\CapaNegocio.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\MySql.Data.xml
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\UtilidadesSQL.pdb
+D:\Documentos\Visual Studio 2015\Projects\ProyectoPracticaProfesionalizanteII\ParaPuppeteer\bin\Debug\UtilidadesSQL.xml
