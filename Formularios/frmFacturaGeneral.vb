@@ -408,7 +408,11 @@ Public Class frmFacturaGeneral
                             Await Task.Run(Function() facturador.Volver())
                             ListaItems = Nothing
                             dgvContenidoFactura.DataSource = ListaItems
+                            btnBorrarDatos.PerformClick()
+                            Dim nrocomp As String = Await Task.Run(Function() facturador.ObtenerComprobante())
+                            MessageBox.Show(nrocomp)
                         End If
+
 
                     Else
                         MsgBox("SE CANCELO LA EMISION DEL COMPROBANTE", MsgBoxStyle.Information, Text)

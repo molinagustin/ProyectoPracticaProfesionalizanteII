@@ -298,7 +298,7 @@ namespace ParaPuppeteer
         //funcion que llega a la pagina de comprobantes en linea de AFIP
         public async Task IrAComprobantesEnLinea()
         {
-            await Page.WaitForTimeoutAsync(8000);
+            await Page.WaitForTimeoutAsync(5000);
             //Se selecciona el boton de comprobantes en linea
             //await Page.WaitForSelectorAsync("document.querySelector("#servicesContainer > div:nth-child(8) > div > div > div > div.media-body > h4")
             try
@@ -309,7 +309,7 @@ namespace ParaPuppeteer
                 if (btnComprantes != null)
                 {
                     await btnComprantes.ClickAsync();
-
+                    await Page.WaitForTimeoutAsync(2000);
                     //Este evento detecta la pestaña de comprobantes en linea que se abre al hacer click
                     Browser.TargetCreated += async (sender, e) =>
                     {
@@ -778,11 +778,62 @@ namespace ParaPuppeteer
         public async Task Volver()
         {
             //document.querySelector("#contenido > table > tbody > tr:nth-child(2) > td > input[type=button]")
-            var btnVolver = await NewPage.QuerySelectorAsync("#contenido > table > tbody > tr:nth-child(2) > td > input[type=button]");
-            if (btnVolver != null)
-                await btnVolver.ClickAsync();
+            try
+            {
+                var btnVolver = await NewPage.QuerySelectorAsync("#contenido > table > tbody > tr:nth-child(2) > td > input[type=button]");
+                if (btnVolver != null)
+                    await btnVolver.ClickAsync();
 
-            await NewPage.WaitForNavigationAsync();
+                await NewPage.WaitForNavigationAsync();
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message, e);
+            }
+        }
+
+        public async Task<string> ObtenerComprobante()
+        {
+            try
+            {
+                //#btn_consultas > span.ui-button-text
+                var btnObtenerComprantes = await NewPage.QuerySelectorAsync("#btn_consultas > span.ui-button-text");
+                if (btnObtenerComprantes != null)
+                {
+                    await btnObtenerComprantes.ClickAsync();
+                    await NewPage.WaitForNavigationAsync();
+
+                    var inputFecha = await NewPage.QuerySelectorAsync("#fed");
+                    await inputFecha.EvaluateFunctionAsync<dynamic>("(el, value) => el.value = value", "01/08/2020");
+                    //#contenido > table > tbody > tr > td > input[type=button]:nth-child(2)
+                    var btnBuscar = await NewPage.QuerySelectorAsync("#contenido > table > tbody > tr > td > input[type=button]:nth-child(2)");
+
+                    if (btnBuscar != null)
+                    {
+                        await btnBuscar.ClickAsync();
+                        await NewPage.WaitForNavigationAsync();
+                        //nrocomp #contenido > div.jig_borde > div > table > tbody > tr.jig_par > td:nth-child(3)
+                        var strNroComp = await NewPage.EvaluateFunctionAsync<string>("()=>document.querySelector('#contenido > div.jig_borde > div > table > tbody > tr.jig_par > td:nth-child(3)').textContent");
+                        //CAE     #contenido > div.jig_borde > div > table > tbody > tr.jig_par > td:nth-child(6)
+                        var strCAE = await NewPage.EvaluateFunctionAsync<string>("()=>document.querySelector('#contenido > div.jig_borde > div > table > tbody > tr.jig_par > td:nth-child(6)').textContent");
+
+                        return strNroComp;
+                    }
+                    else
+                    {
+                        return "";
+                    }
+
+                }
+                else
+                {
+                    throw new Exception("No se detecta el boton Obtener Comprobantes");
+                }
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message, e);
+            }
         }
         public void Cerrar()
         {
