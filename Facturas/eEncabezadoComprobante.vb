@@ -1,7 +1,10 @@
-﻿Public Class eEncabezadoComprobante
+﻿Imports CapaDatos, CapaNegocio
+Public Class eEncabezadoComprobante
 #Region "Campos"
     'Declaracion de los campos a utilizar
     Private _NumComprobante As Integer
+    Private _ComprobanteCompleto As String
+    Private _CAE As String
     Private _TipoComprobante As Integer
     Private _Fecha As Date
     Private _Cliente As Integer
@@ -26,6 +29,24 @@
         End Get
         Set(value As Integer)
             _NumComprobante = value
+        End Set
+    End Property
+
+    Public Property ComprobanteCompleto As String
+        Get
+            Return _ComprobanteCompleto
+        End Get
+        Set(value As String)
+            _ComprobanteCompleto = value
+        End Set
+    End Property
+
+    Public Property CAE As String
+        Get
+            Return _CAE
+        End Get
+        Set(value As String)
+            _CAE = value
         End Set
     End Property
 
@@ -149,6 +170,24 @@
 #End Region
 
 #Region "Funciones"
+    ''' <summary>
+    ''' Inserta los datos de un comprobante en la base de datos
+    ''' </summary>
+    ''' <returns></returns>
+    Public Function InsertarComprobante() As Integer
+        Dim query As New clsArmadoQuery
+        Dim comprobante As New clsEjecucionQuery
+        Dim registro As Short
 
+        'Le asigno las propiedades al objeto
+        With comprobante
+            .ModoProceso = clsEjecucionQuery.TipoProceso.Comprobante
+            .Comando = query.insertarNuevoRegistro(Me, "encabezado_comprobantes")
+            registro = .IdNuevoRegistro
+        End With
+
+        'Devuelvo el id del registro
+        Return registro
+    End Function
 #End Region
 End Class

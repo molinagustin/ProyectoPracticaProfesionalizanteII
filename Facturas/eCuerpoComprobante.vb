@@ -125,10 +125,6 @@ Public Class eCuerpoComprobante
     End Property
 #End Region
 
-#Region "Metodos"
-
-#End Region
-
 #Region "Funciones"
 
 #End Region
