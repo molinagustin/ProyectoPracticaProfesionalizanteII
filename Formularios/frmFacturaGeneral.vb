@@ -194,10 +194,15 @@ Public Class frmFacturaGeneral
             Await Task.Run(Function() facturador.DescargarNavegador)
             Await Task.Run(Function() facturador.AbrirNavegador)
             Await Task.Run(Function() facturador.IrPagAfip)
+            aumentarBarra(20)
             Await Task.Run(Function() facturador.IngresoCUIT())
+            aumentarBarra(20)
             Await Task.Run(Function() facturador.IngresoPass())
+            aumentarBarra(20)
             Await Task.Run(Function() facturador.IrAComprobantesEnLinea())
+            aumentarBarra(20)
             Await Task.Run(Function() facturador.IngresarEmpresa())
+            aumentarBarra(20)
 
         Catch ex As Exception
             MsgBox("Error: " & ex.Message, MsgBoxStyle.Critical, Text)
@@ -729,6 +734,35 @@ Public Class frmFacturaGeneral
         txtNumDoc.ReadOnly = accion1
         txtNombreCliente.ReadOnly = accion1
         txtDomicilio.ReadOnly = accion1
+    End Sub
+
+    ''' <summary>
+    ''' Metodo para aumentar el valor de la barra de progreso
+    ''' </summary>
+    ''' <param name="valor">Valor a incrementar</param>
+    Public Sub aumentarBarra(valor As Int16)
+
+        'Si el valor es menor a 100%, lo aumento y muestro en el label
+        If barHabilitarFactura.Value < 100 Then
+            barHabilitarFactura.Value += valor
+            lblProgresoBarra.Text = barHabilitarFactura.Value & "%"
+
+            'Si por alguna razon se pasara de 100% lo vuelvo a colocar en 100%
+            If barHabilitarFactura.Value > 100 Then
+                barHabilitarFactura.Value = 100
+                lblProgresoBarra.Text = barHabilitarFactura.Value & "%"
+
+            End If
+        End If
+
+        'Al llegar a 100% muestro el boton para generar la factura
+        If barHabilitarFactura.Value = 100 Then
+            lblProgresoBarra.Visible = False
+            barHabilitarFactura.Visible = False
+
+            btnGenerarFactura.Enabled = True
+            btnGenerarFactura.Visible = True
+        End If
     End Sub
 #End Region
 End Class

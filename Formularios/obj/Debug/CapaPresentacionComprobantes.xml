@@ -81,5 +81,11 @@ CapaPresentacionComprobantes
  <param name="accion1">Booleano que determina si los controles apropiados seran de solo lectura</param>
  <param name="accion2">Booleano que determina si los controles apropiados estaran habilitados o no</param>
 </member>
+<member name="M:CapaPresentacionComprobantes.frmFacturaGeneral.aumentarBarra(System.Int16)">
+ <summary>
+ Metodo para aumentar el valor de la barra de progreso
+ </summary>
+ <param name="valor">Valor a incrementar</param>
+</member>
 </members>
 </doc>

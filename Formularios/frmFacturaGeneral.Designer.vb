@@ -84,6 +84,8 @@ Partial Class frmFacturaGeneral
         Me.btnAgregarProducto = New System.Windows.Forms.Button()
         Me.txtStockAlmacen = New System.Windows.Forms.TextBox()
         Me.lblStock = New System.Windows.Forms.Label()
+        Me.barHabilitarFactura = New System.Windows.Forms.ProgressBar()
+        Me.lblProgresoBarra = New System.Windows.Forms.Label()
         Me.gbxFormasPago.SuspendLayout()
         CType(Me.dgvContenidoFactura, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -628,6 +630,7 @@ Partial Class frmFacturaGeneral
         '
         Me.btnGenerarFactura.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.btnGenerarFactura.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnGenerarFactura.Enabled = False
         Me.btnGenerarFactura.Image = Global.CapaPresentacionComprobantes.My.Resources.Resources.creditcard
         Me.btnGenerarFactura.Location = New System.Drawing.Point(519, 693)
         Me.btnGenerarFactura.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
@@ -637,6 +640,7 @@ Partial Class frmFacturaGeneral
         Me.btnGenerarFactura.Text = "GENERAR FACTURA"
         Me.btnGenerarFactura.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.btnGenerarFactura.UseVisualStyleBackColor = True
+        Me.btnGenerarFactura.Visible = False
         '
         'btnEliminarProducto
         '
@@ -687,6 +691,25 @@ Partial Class frmFacturaGeneral
         Me.lblStock.TabIndex = 40
         Me.lblStock.Text = "STOCK ALMACEN"
         '
+        'barHabilitarFactura
+        '
+        Me.barHabilitarFactura.Anchor = System.Windows.Forms.AnchorStyles.Bottom
+        Me.barHabilitarFactura.Location = New System.Drawing.Point(519, 724)
+        Me.barHabilitarFactura.Name = "barHabilitarFactura"
+        Me.barHabilitarFactura.Size = New System.Drawing.Size(117, 23)
+        Me.barHabilitarFactura.TabIndex = 41
+        '
+        'lblProgresoBarra
+        '
+        Me.lblProgresoBarra.Anchor = System.Windows.Forms.AnchorStyles.Bottom
+        Me.lblProgresoBarra.AutoSize = True
+        Me.lblProgresoBarra.Location = New System.Drawing.Point(571, 701)
+        Me.lblProgresoBarra.Name = "lblProgresoBarra"
+        Me.lblProgresoBarra.Size = New System.Drawing.Size(28, 19)
+        Me.lblProgresoBarra.TabIndex = 42
+        Me.lblProgresoBarra.Text = "0%"
+        Me.lblProgresoBarra.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'frmFacturaGeneral
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit
@@ -695,6 +718,8 @@ Partial Class frmFacturaGeneral
         Me.CancelButton = Me.btnSalir
         Me.ClientSize = New System.Drawing.Size(1139, 800)
         Me.ControlBox = False
+        Me.Controls.Add(Me.lblProgresoBarra)
+        Me.Controls.Add(Me.barHabilitarFactura)
         Me.Controls.Add(Me.txtStockAlmacen)
         Me.Controls.Add(Me.lblStock)
         Me.Controls.Add(Me.btnBorrarDatos)
@@ -802,4 +827,6 @@ Partial Class frmFacturaGeneral
     Friend WithEvents btnBorrarDatos As Button
     Friend WithEvents txtStockAlmacen As TextBox
     Friend WithEvents lblStock As Label
+    Friend WithEvents barHabilitarFactura As ProgressBar
+    Friend WithEvents lblProgresoBarra As Label
 End Class
