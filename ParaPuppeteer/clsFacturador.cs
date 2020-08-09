@@ -252,7 +252,7 @@ namespace ParaPuppeteer
             try
             {
                 await Page.GoToAsync(this.URL);
-                //await Page.WaitForNavigationAsync();            
+                     
             }
             catch (Exception e)
             {
@@ -316,7 +316,6 @@ namespace ParaPuppeteer
                         if (e.Target.Url.Substring(0, URLComprobantes.Length).Equals(URLComprobantes))
                         {
                             NewPage = await e.Target.PageAsync();
-
                         }
                     };
                 }
@@ -736,7 +735,7 @@ namespace ParaPuppeteer
             }
         }
 
-        public async Task Terminar()
+        public async Task<bool> Terminar()
         {
             try
             {
@@ -747,13 +746,16 @@ namespace ParaPuppeteer
                 if (botonTerminar != null)
                 {
                     await botonTerminar.ClickAsync();
+                    await NewPage.WaitForNavigationAsync();
 
-                    //document.querySelector("#btngenerar")document.querySelector("#btngenerar")
                     var botonGenerar = await NewPage.QuerySelectorAsync("#btngenerar");
-
+                
                     if (botonGenerar != null)
                     {
-                        await botonGenerar.ClickAsync();
+                        //await botonGenerar.ClickAsync();
+                        //await NewPage.Keyboard.PressAsync("Enter");
+                        //document.querySelector("#botones_comprobante > b")
+                        return true;
                     }
                     else
                     {
@@ -771,8 +773,17 @@ namespace ParaPuppeteer
                 throw new Exception(e.Message, e);
             }
         }
+        
 
+        public async Task Volver()
+        {
+            //document.querySelector("#contenido > table > tbody > tr:nth-child(2) > td > input[type=button]")
+            var btnVolver = await NewPage.QuerySelectorAsync("#contenido > table > tbody > tr:nth-child(2) > td > input[type=button]");
+            if (btnVolver != null)
+                await btnVolver.ClickAsync();
 
+            await NewPage.WaitForNavigationAsync();
+        }
         public void Cerrar()
         {
             this.Browser.Dispose();

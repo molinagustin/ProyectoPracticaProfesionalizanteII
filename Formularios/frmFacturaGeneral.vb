@@ -368,7 +368,7 @@ Public Class frmFacturaGeneral
 
                 'Habria que guardar el valor del total que tienen el txtTotal
                 Dim ValorTotal As Double = Convert.ToDouble(txtTotal.Text)
-                If ValorTotal >= 1000 And txtNumDoc.Text = "" Then
+                If ValorTotal >= 1200 And txtNumDoc.Text = "" Then
                     Throw New Exception("DEBE INGRESAR EL NUMERO DE DOCUMENTO DEL CLIENTE")
                 Else
 
@@ -404,7 +404,11 @@ Public Class frmFacturaGeneral
                         Await Task.Run(Function() facturador.IngresarNroDoc(Cliente.NumeroDocumento))
                         Await Task.Run(Function() facturador.IngresarFormaPago(Convert.ToString(Encabezado.FormaPago), NumeroTarjeta))
                         Await Task.Run(Function() facturador.IngresarItems())
-                        Await Task.Run(Function() facturador.Terminar())
+                        If Await Task.Run(Function() facturador.Terminar()) Then
+                            Await Task.Run(Function() facturador.Volver())
+                            ListaItems = Nothing
+                            dgvContenidoFactura.DataSource = ListaItems
+                        End If
 
                     Else
                         MsgBox("SE CANCELO LA EMISION DEL COMPROBANTE", MsgBoxStyle.Information, Text)
