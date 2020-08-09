@@ -419,6 +419,7 @@ Public Class frmFacturaGeneral
                     End If
                 End If
             End If
+
         Catch ex As Exception
             MsgBox("Error: " & ex.Message, MsgBoxStyle.Critical, Text)
         End Try
@@ -771,6 +772,27 @@ Public Class frmFacturaGeneral
             btnGenerarFactura.Enabled = True
             btnGenerarFactura.Visible = True
         End If
+    End Sub
+
+    ''' <summary>
+    ''' Metodo para cargar y obtener el Id del encabezado del comprobante
+    ''' </summary>
+    Public Sub cargarEncabComprobante()
+        Dim idEncab As Integer = Encabezado.InsertarComprobante
+
+        cargarCuerposComprobante(idEncab)
+    End Sub
+
+    ''' <summary>
+    ''' Metodo para cargar los registros de cuerpo de comprobante de un encabezado
+    ''' </summary>
+    ''' <param name="id">Numero de Id del encabezado referenciando a los distintos registros de cuerpo</param>
+    Public Sub cargarCuerposComprobante(id As Integer)
+
+        For Each itemCuerpo In ListaItems
+            'itemCuerpo.
+        Next
+
     End Sub
 #End Region
 End Class

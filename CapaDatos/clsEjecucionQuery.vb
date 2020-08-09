@@ -9,6 +9,7 @@ Public Class clsEjecucionQuery
         DataTable = 0
         Scalar = 1
         NonQuery = 2
+        Comprobante = 3
     End Enum
 
     Private _ModoProceso As TipoProceso
@@ -395,6 +396,53 @@ Public Class clsEjecucionQuery
                         miTransaccion.Commit()
 
                         Comando.CommandText = "SELECT MAX(IdProducto) FROM productos;"
+                        _IdNuevoRegistro = Comando.ExecuteScalar()
+
+
+
+                    Catch er As MySqlException
+                        MsgBox("Error: " & er.Message, MsgBoxStyle.Critical, "Ejecucion Query")
+                        'Si surge un error, vuelvo atras la transaccion
+                        miTransaccion.Rollback()
+
+                    Catch ex As Exception
+                        MsgBox("Error: " & Chr(13) & ex.Message, MsgBoxStyle.Critical, "Ejecucion Query")
+                        'Si surge un error, vuelvo atras la transaccion
+                        miTransaccion.Rollback()
+
+                    Finally
+                        'Cierro la conexion
+                        conexionSql.Close()
+                    End Try
+                End Using
+
+                'Tipo de proceso que sirve para obtener el valor de la primer fila y primer columna del registro creado
+            Case TipoProceso.Comprobante
+                'Bloque using para liberar de memoria los objetos creados al final
+                Using conexionSql
+
+                    Dim miTransaccion As MySqlTransaction
+                    miTransaccion = Nothing
+
+                    Try
+                        conexionSql.Open()
+
+                        miTransaccion = conexionSql.BeginTransaction
+
+                        With Comando
+                            .Connection = conexionSql
+                            .Transaction = miTransaccion
+                        End With
+
+                        If Comando.CommandText = "" Then
+                            Comando.CommandText = QuerySQL
+                        End If
+
+                        Comando.ExecuteScalar()
+
+                        miTransaccion.Commit()
+
+                        Comando.CommandText = "SELECT MAX(NumComprobante) FROM encabezado_comprobantes;"
                         _IdNuevoRegistro = Comando.ExecuteScalar()
 
                     Catch er As MySqlException
