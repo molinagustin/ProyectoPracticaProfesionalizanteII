@@ -9,6 +9,8 @@ Imports entCliente
 Imports entTarjeta
 Imports entStock
 Imports CapaPresentacionClientes
+Imports System.Management
+
 Public Class frmFacturaGeneral
 #Region "Campos"
     'Clase para poder utilizar el puppeteer y sus correspondientes propiedades
@@ -107,6 +109,7 @@ Public Class frmFacturaGeneral
 #Region "Eventos"
     Private Async Sub frmFacturaGeneral_Load(sender As Object, e As EventArgs) Handles Me.Load
         Try
+            IsRunning("chrome")
             'Creo un objeto para los productos
             Dim producto As New eProducto
             'Guardo en la propiedad el listaod de todos los productos
@@ -170,7 +173,7 @@ Public Class frmFacturaGeneral
                     'Le asigno las propiedades al objeto del Puppeteer
                     With facturador
                         .CUIL = Usuario.NombreUsuario
-                        .PassWord = Usuario.ClaveFiscal
+                        .Password = Usuario.ClaveFiscal
                     End With
                 Else
                     Throw New Exception("Hay mas de un usuario cargado en la base de datos, contacte al Administrador")
@@ -845,5 +848,42 @@ Public Class frmFacturaGeneral
             MsgBox("Error: " & ex.Message, MsgBoxStyle.Critical, Text)
         End Try
     End Sub
+#End Region
+
+#Region "Funciones"
+    Public Function IsRunning(ByVal processName As String) As Integer
+        Try
+            Dim retVal() As Process = Process.GetProcessesByName(processName)
+
+            If retVal.Length > 0 Then
+                For Each proceso In retVal
+                    If ObtenerEjecutable(proceso) = "D:\Chromium\Win64-686378\chrome-win\chrome.exe" Then
+                        proceso.Kill()
+                    End If
+                Next
+            End If
+            Return retVal.Count
+        Catch ex As Exception
+            'handle the exception your way
+            MessageBox.Show(ex.Message)
+            Return -1
+        End Try
+    End Function
+    Private Function ObtenerEjecutable(proceso As Process) As String
+        Try
+            Return proceso.MainModule.FileName
+        Catch ex As Exception
+            Dim query As String = "SELECT ExecutablePath, ProcessID FROM Win32_Process"
+            Dim buscador As New ManagementObjectSearcher(query)
+            For Each item In buscador.Get
+                Dim id As Object = item("ProcessID")
+                Dim path As Object = item("ExecutablePath")
+                If Not path Is Nothing And id.ToString = proceso.Id.ToString Then
+                    Return path.ToString
+                End If
+            Next
+            Return Nothing
+        End Try
+    End Function
 #End Region
 End Class

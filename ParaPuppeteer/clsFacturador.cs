@@ -252,7 +252,7 @@ namespace ParaPuppeteer
             try
             {
                 await Page.GoToAsync(this.URL);
-                     
+
             }
             catch (Exception e)
             {
@@ -309,8 +309,9 @@ namespace ParaPuppeteer
                 if (btnComprantes != null)
                 {
                     await btnComprantes.ClickAsync();
-                    await Page.WaitForTimeoutAsync(2000);
+
                     //Este evento detecta la pestaña de comprobantes en linea que se abre al hacer click
+
                     Browser.TargetCreated += async (sender, e) =>
                     {
                         if (e.Target.Url.Substring(0, URLComprobantes.Length).Equals(URLComprobantes))
@@ -337,7 +338,9 @@ namespace ParaPuppeteer
             try
             {
                 await Page.WaitForTimeoutAsync(4000);
-                                
+                //await Page.WaitForExpressionAsync($"document.getElementById('{id_input_Umsatz}')!=null");
+
+
                 ElementHandle btnEmpresa = await NewPage.QuerySelectorAsync("#contenido > form > table > tbody > tr:nth-child(4) > td > input.btn_empresa.ui-button.ui-widget.ui-state-default.ui-corner-all");
 
                 if (btnEmpresa != null)
@@ -748,7 +751,7 @@ namespace ParaPuppeteer
                     await NewPage.WaitForNavigationAsync();
 
                     var botonGenerar = await NewPage.QuerySelectorAsync("#btngenerar");
-                
+
                     if (botonGenerar != null)
                     {
                         //await botonGenerar.ClickAsync();
@@ -772,7 +775,7 @@ namespace ParaPuppeteer
                 throw new Exception(e.Message, e);
             }
         }
-        
+
 
         public async Task Volver()
         {
@@ -841,3 +844,4 @@ namespace ParaPuppeteer
         #endregion
     }
 }
+
