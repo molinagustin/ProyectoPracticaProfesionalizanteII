@@ -412,11 +412,18 @@ Public Class frmFacturaGeneral
                             cargarEncabComprobante()
                             MsgBox("Comprobante Generado con Exito!")
                             Await Task.Run(Function() facturador.Volver())
-                            ListaItems = Nothing
-                            dgvContenidoFactura.DataSource = ListaItems
+
+                            ListaItems.Clear()
+                            ActualizarDGV()
+                            Dim clientenuevo As New eCliente
+                            Cliente = clientenuevo
                             btnBorrarDatos.PerformClick()
-                            Dim nrocomp As String = Await Task.Run(Function() facturador.ObtenerComprobante())
-                            'MessageBox.Show(nrocomp)
+                            Await Task.Run(Function() facturador.ObtenerComprobante())
+                            Dim nrocomp As String = Await Task.Run(Function() facturador.ObtenerNroComp())
+                            Dim nroCAE As String = Await Task.Run(Function() facturador.ObtenerCae())
+                            Await Task.Run(Function() facturador.Volver())
+
+                            MessageBox.Show(nrocomp, nroCAE)
                         End If
 
 
@@ -539,6 +546,7 @@ Public Class frmFacturaGeneral
         txtNumDoc.Text = ""
         txtNombreCliente.Text = ""
         txtDomicilio.Text = ""
+
     End Sub
 
     'Evento que ocurre al darle un formato al DGV

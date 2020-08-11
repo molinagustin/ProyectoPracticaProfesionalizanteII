@@ -338,8 +338,8 @@ namespace ParaPuppeteer
             try
             {
                 await Page.WaitForTimeoutAsync(4000);
-                //await Page.WaitForExpressionAsync($"document.getElementById('{id_input_Umsatz}')!=null");
-
+                //await Page.WaitForExpressionAsync($"document.getElementById('{id_input_Umsatz}')!=null") #contenido > form > table > tbody > tr:nth-child(4) > td > input.btn_empresa
+                //#contenido > form > table > tbody > tr:nth-child(4) > td > input.btn_empresa.ui-button.ui-widget.ui-state-default.ui-corner-all
 
                 ElementHandle btnEmpresa = await NewPage.QuerySelectorAsync("#contenido > form > table > tbody > tr:nth-child(4) > td > input.btn_empresa.ui-button.ui-widget.ui-state-default.ui-corner-all");
 
@@ -350,7 +350,7 @@ namespace ParaPuppeteer
                 else
                 {
                     await Page.WaitForTimeoutAsync(4000);
-                    ElementHandle btnEmpresa2 = await NewPage.QuerySelectorAsync("#contenido > form > table > tbody > tr:nth-child(4) > td > input.btn_empresa.ui-button.ui-widget.ui-state-default.ui-corner-all");
+                    ElementHandle btnEmpresa2 = await NewPage.QuerySelectorAsync("#contenido > form > table > tbody > tr:nth-child(4) > td > input.btn_empresa");
                     await btnEmpresa2.ClickAsync();
                 }
             }
@@ -668,8 +668,8 @@ namespace ParaPuppeteer
                         if (txtCantidad != null)
                         {
                             //Se ingresa el nombre del producto
-                            await txtCantidad.EvaluateFunctionAsync<dynamic>("(el, value) => el.value = value", Convert.ToString(item.Cantidad));
-                            //la unidad de medida del producto
+                            await txtCantidad.EvaluateFunctionAsync<dynamic>("(el, value) => el.value = value", Convert.ToString(item.Cantidad).Replace(",","."));
+                            //la unidad de medida del producto#detalle_medida2
                             await NewPage.SelectAsync("#detalle_medida" + Nro, Convert.ToString(item.UnidadMedida));
 
                             var txtPrecio = await NewPage.QuerySelectorAsync("#detalle_precio" + Nro);
@@ -678,13 +678,13 @@ namespace ParaPuppeteer
                                 //Se ingresa el precio
                                 await txtPrecio.EvaluateFunctionAsync<dynamic>("(el, value) => el.value = value", ListaProductos.Find((val) => val.IdProducto == item.ProductoServicio).PrecioFinal.ToString("F", System.Globalization.CultureInfo.InvariantCulture));
 
-                                var txtBoni = await NewPage.QuerySelectorAsync("#detalle_precio" + Nro);
+                                var txtBoni = await NewPage.QuerySelectorAsync("#detalle_porcentaje" + Nro);
                                 if (txtBoni != null)
                                 {
                                     //Se ingresa la bonificacion en caso de haberla
                                     if (item.Bonificacion != 0)
                                     {
-                                        await txtBoni.EvaluateFunctionAsync<dynamic>("(el, value) => el.value = value", Convert.ToString(item.Bonificacion));
+                                        await txtBoni.EvaluateFunctionAsync<dynamic>("(el, value) => el.value = value", Convert.ToString(item.Bonificacion).Replace(",", "."));
                                     }
                                     //boton para agregar otro item
 
@@ -794,7 +794,7 @@ namespace ParaPuppeteer
             }
         }
 
-        public async Task<string> ObtenerComprobante()
+        public async Task ObtenerComprobante()
         {
             try
             {
@@ -815,15 +815,11 @@ namespace ParaPuppeteer
                         await btnBuscar.ClickAsync();
                         await NewPage.WaitForNavigationAsync();
                         //nrocomp #contenido > div.jig_borde > div > table > tbody > tr.jig_par > td:nth-child(3)
-                        var strNroComp = await NewPage.EvaluateFunctionAsync<string>("()=>document.querySelector('#contenido > div.jig_borde > div > table > tbody > tr.jig_par > td:nth-child(3)').textContent");
-                        //CAE     #contenido > div.jig_borde > div > table > tbody > tr.jig_par > td:nth-child(6)
-                        var strCAE = await NewPage.EvaluateFunctionAsync<string>("()=>document.querySelector('#contenido > div.jig_borde > div > table > tbody > tr.jig_par > td:nth-child(6)').textContent");
-
-                        return strNroComp;
+                        
                     }
                     else
                     {
-                        return "";
+                        throw new Exception("");
                     }
 
                 }
@@ -835,6 +831,32 @@ namespace ParaPuppeteer
             catch (Exception e)
             {
                 throw new Exception(e.Message, e);
+            }
+        }
+        public async Task<string> ObtenerNroComp()
+        {
+            try
+            {
+                var strNroComp = await NewPage.EvaluateFunctionAsync<string>("()=>document.querySelector('#contenido > div.jig_borde > div > table > tbody > tr.jig_par > td:nth-child(3)').textContent");
+                return strNroComp;
+            }
+            catch (Exception)
+            {
+                return "";
+            }
+        }
+        public async Task<string> ObtenerCae()
+        {
+            //CAE     #contenido > div.jig_borde > div > table > tbody > tr.jig_par > td:nth-child(6)
+            try
+            {
+                var strCAE = await NewPage.EvaluateFunctionAsync<string>("()=>document.querySelector('#contenido > div.jig_borde > div > table > tbody > tr.jig_par > td:nth-child(6)').textContent");
+                return strCAE;
+            }
+            catch (Exception)
+            {
+
+                return "";
             }
         }
         public void Cerrar()
