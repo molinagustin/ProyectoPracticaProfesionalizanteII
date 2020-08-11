@@ -369,7 +369,7 @@ Public Class frmFacturaGeneral
                 'Habria que guardar el valor del total que tienen el txtTotal
                 Dim ValorTotal As Double = Convert.ToDouble(txtTotal.Text)
                 If ValorTotal >= 1200 And txtNumDoc.Text = "" Then
-                    Throw New Exception("DEBE INGRESAR EL NUMERO DE DOCUMENTO DEL CLIENTE")
+                    Throw New Exception("DEBE SELECCIONAR UN CLIENTE")
                 Else
 
                     If Cliente.IdCliente > 0 Then
@@ -405,12 +405,15 @@ Public Class frmFacturaGeneral
                         Await Task.Run(Function() facturador.IngresarFormaPago(Convert.ToString(Encabezado.FormaPago), NumeroTarjeta))
                         Await Task.Run(Function() facturador.IngresarItems())
                         If Await Task.Run(Function() facturador.Terminar()) Then
+                            'Al finalizar se carga el encabezado del comprobante generado
+                            cargarEncabComprobante()
+                            MsgBox("Comprobante Generado con Exito!")
                             Await Task.Run(Function() facturador.Volver())
                             ListaItems = Nothing
                             dgvContenidoFactura.DataSource = ListaItems
                             btnBorrarDatos.PerformClick()
                             Dim nrocomp As String = Await Task.Run(Function() facturador.ObtenerComprobante())
-                            MessageBox.Show(nrocomp)
+                            'MessageBox.Show(nrocomp)
                         End If
 
 
@@ -638,16 +641,6 @@ Public Class frmFacturaGeneral
         End If
     End Sub
 
-    'Evento cuando se cierra el formulario
-    Private Sub frmFacturaGeneral_Closed(sender As Object, e As EventArgs) Handles Me.Closed
-        Try
-
-
-        Catch ex As Exception
-            MsgBox("Error: " & ex.Message, MsgBoxStyle.Critical, Text)
-        End Try
-    End Sub
-
     'Evento al realizar click sobre una celda del DGV
     Private Sub dgvContenidoFactura_CellMouseClick(sender As Object, e As DataGridViewCellMouseEventArgs) Handles dgvContenidoFactura.CellMouseClick
         'Guardo el ID del producto de dicha celda
@@ -778,9 +771,20 @@ Public Class frmFacturaGeneral
     ''' Metodo para cargar y obtener el Id del encabezado del comprobante
     ''' </summary>
     Public Sub cargarEncabComprobante()
-        Dim idEncab As Integer = Encabezado.InsertarComprobante
+        Try
+            'Guardo el Id de la insersion del encabezado
+            Dim idEncab As Integer = Encabezado.InsertarComprobante
 
-        cargarCuerposComprobante(idEncab)
+            'Si es mayor a cero, indica que fue cargado exitosamente, por lo que procede a cargar los cuerpos
+            If idEncab > 0 Then
+                cargarCuerposComprobante(idEncab)
+            Else
+                Throw New Exception("No se hizo la carga correcta del encabezado")
+            End If
+
+        Catch ex As Exception
+            MsgBox("Error: " & ex.Message, MsgBoxStyle.Critical, Text)
+        End Try
     End Sub
 
     ''' <summary>
@@ -788,11 +792,58 @@ Public Class frmFacturaGeneral
     ''' </summary>
     ''' <param name="id">Numero de Id del encabezado referenciando a los distintos registros de cuerpo</param>
     Public Sub cargarCuerposComprobante(id As Integer)
+        Try
+            'Hago un bucle y recorro cada item de la lista de items a cargar
+            For Each itemCuerpo In ListaItems
+                'Dejo el Id del cuerpo vacio (porque es auto incremental) y le asigno a cada registro del cuerpo el nº de Id que representa el encabezado de comprobante
+                itemCuerpo.IdCuerpo = Nothing
+                itemCuerpo.NumeroComprobante = id
 
-        For Each itemCuerpo In ListaItems
-            'itemCuerpo.
-        Next
+                'Si es menor o igual a cero indica un error en la carga del registro
+                If Not itemCuerpo.InsertarCuerpo() > 0 Then
+                    Throw New Exception("No se hizo la carga correcta del cuerpo")
+                End If
 
+                'Actualizo el stock segun producto y cantidad vendida
+                'actualizarStock(itemCuerpo.ProductoServicio, itemCuerpo.Cantidad)
+            Next
+
+        Catch ex As Exception
+            MsgBox("Error: " & ex.Message, MsgBoxStyle.Critical, Text)
+        End Try
+    End Sub
+
+    ''' <summary>
+    ''' Metodo que actualiza el stock del producto segun la cantidad vendida
+    ''' </summary>
+    ''' <param name="idProd">Id del producto a actualizar</param>
+    ''' <param name="cantVendida">Cantidad del producto vendida</param>
+    Public Sub actualizarStock(idProd As Integer, cantVendida As Double)
+        Try
+            'Creo un objeto para solicitar el stock actual del producto
+            Dim stockAlmacen As New eStock
+            stockAlmacen = stockAlmacen.ObtenerStockProducto(idProd)
+
+            'Creo un objeto para usarlo en la actualizacion
+            Dim stockActualAlmacen As New eStock
+            With stockActualAlmacen
+                .IdStock = stockAlmacen.IdStock
+                .IdProdStock = stockAlmacen.IdProdStock
+                .StockExistencia = stockAlmacen.StockExistencia - cantVendida
+                'Si el stock diera negativo, lo dejo nulo
+                If .StockExistencia < 0 Then
+                    .StockExistencia = 0
+                End If
+            End With
+
+            'Actualizo el stock. Si no devuelve un valor mayor a 0 entonces no se modifico el registro
+            If Not stockAlmacen.ActualizarStock(stockActualAlmacen) > 0 Then
+                Throw New Exception("Fallo al realizar la actualizacion de stock")
+            End If
+
+        Catch ex As Exception
+            MsgBox("Error: " & ex.Message, MsgBoxStyle.Critical, Text)
+        End Try
     End Sub
 #End Region
 End Class

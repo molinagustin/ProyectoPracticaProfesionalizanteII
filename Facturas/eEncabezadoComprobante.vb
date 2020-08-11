@@ -165,10 +165,6 @@ Public Class eEncabezadoComprobante
     End Property
 #End Region
 
-#Region "Metodos"
-
-#End Region
-
 #Region "Funciones"
     ''' <summary>
     ''' Inserta los datos de un comprobante en la base de datos

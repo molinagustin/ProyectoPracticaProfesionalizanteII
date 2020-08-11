@@ -337,8 +337,7 @@ namespace ParaPuppeteer
             try
             {
                 await Page.WaitForTimeoutAsync(4000);
-
-
+                                
                 ElementHandle btnEmpresa = await NewPage.QuerySelectorAsync("#contenido > form > table > tbody > tr:nth-child(4) > td > input.btn_empresa.ui-button.ui-widget.ui-state-default.ui-corner-all");
 
                 if (btnEmpresa != null)

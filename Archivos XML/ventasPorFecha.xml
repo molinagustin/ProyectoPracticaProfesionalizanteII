@@ -84,4 +84,49 @@
     <BonificacionTotal>184.37</BonificacionTotal>
     <Total>1659.31</Total>
   </Table1>
+  <Table1>
+    <IdCuerpo>22</IdCuerpo>
+    <Fecha>2020-07-17T00:00:00-03:00</Fecha>
+    <NumComprobante>10</NumComprobante>
+    <NombreProducto>Galletas Quaker por 130gr.</NombreProducto>
+    <Cantidad>10</Cantidad>
+    <BonificacionTotal>150</BonificacionTotal>
+    <Total>1350</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>23</IdCuerpo>
+    <Fecha>2020-07-17T00:00:00-03:00</Fecha>
+    <NumComprobante>10</NumComprobante>
+    <NombreProducto>Leche Sachet 1 L.</NombreProducto>
+    <Cantidad>5</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>375</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>20</IdCuerpo>
+    <Fecha>2020-07-22T00:00:00-03:00</Fecha>
+    <NumComprobante>9</NumComprobante>
+    <NombreProducto>Avena Integral</NombreProducto>
+    <Cantidad>3</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>112.5</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>21</IdCuerpo>
+    <Fecha>2020-07-22T00:00:00-03:00</Fecha>
+    <NumComprobante>9</NumComprobante>
+    <NombreProducto>Leche Sachet 1 L.</NombreProducto>
+    <Cantidad>1</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>75</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>24</IdCuerpo>
+    <Fecha>2020-08-10T00:00:00-03:00</Fecha>
+    <NumComprobante>11</NumComprobante>
+    <NombreProducto>Mes de Agosto</NombreProducto>
+    <Cantidad>1</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>1000</Total>
+  </Table1>
 </NewDataSet>

@@ -1,4 +1,4 @@
-﻿Imports CapaDatos
+﻿Imports CapaDatos, CapaNegocio
 Public Class eCuerpoComprobante
 #Region "Campos"
     'Declaracion de los campos a utilizar
@@ -126,6 +126,24 @@ Public Class eCuerpoComprobante
 #End Region
 
 #Region "Funciones"
+    ''' <summary>
+    ''' Inserta los datos de un registro de cuerpo en la base de datos
+    ''' </summary>
+    ''' <returns></returns>
+    Public Function InsertarCuerpo() As Integer
+        Dim query As New clsArmadoQuery
+        Dim cuerpo As New clsEjecucionQuery
+        Dim filas As Short
 
+        'Le asigno las propiedades al objeto
+        With cuerpo
+            .ModoProceso = clsEjecucionQuery.TipoProceso.NonQuery
+            .Comando = query.insertarNuevoRegistro(Me, "cuerpo_comprobantes")
+            filas = .FilasAfectadas
+        End With
+
+        'Devuelvo las filas afectadas
+        Return filas
+    End Function
 #End Region
 End Class

@@ -87,5 +87,23 @@ CapaPresentacionComprobantes
  </summary>
  <param name="valor">Valor a incrementar</param>
 </member>
+<member name="M:CapaPresentacionComprobantes.frmFacturaGeneral.cargarEncabComprobante">
+ <summary>
+ Metodo para cargar y obtener el Id del encabezado del comprobante
+ </summary>
+</member>
+<member name="M:CapaPresentacionComprobantes.frmFacturaGeneral.cargarCuerposComprobante(System.Int32)">
+ <summary>
+ Metodo para cargar los registros de cuerpo de comprobante de un encabezado
+ </summary>
+ <param name="id">Numero de Id del encabezado referenciando a los distintos registros de cuerpo</param>
+</member>
+<member name="M:CapaPresentacionComprobantes.frmFacturaGeneral.actualizarStock(System.Int32,System.Double)">
+ <summary>
+ Metodo que actualiza el stock del producto segun la cantidad vendida
+ </summary>
+ <param name="idProd">Id del producto a actualizar</param>
+ <param name="cantVendida">Cantidad del producto vendida</param>
+</member>
 </members>
 </doc>
