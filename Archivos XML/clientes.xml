@@ -36,7 +36,7 @@
     <IdCliente>2</IdCliente>
     <NombreCliente>Lopez Martin</NombreCliente>
     <TipoDocumento>6</TipoDocumento>
-    <NumeroDocumento>37123456</NumeroDocumento>
+    <NumeroDocumento>37614018</NumeroDocumento>
     <Domicilio>Ricardo Petersen 860</Domicilio>
     <CondicionIva>3</CondicionIva>
     <Localidad>1</Localidad>
@@ -46,7 +46,7 @@
     <IdCliente>3</IdCliente>
     <NombreCliente>Zabala Angel</NombreCliente>
     <TipoDocumento>1</TipoDocumento>
-    <NumeroDocumento>22112233441</NumeroDocumento>
+    <NumeroDocumento>11225544668</NumeroDocumento>
     <Domicilio>Agustin Alvarez 1234</Domicilio>
     <CondicionIva>3</CondicionIva>
     <Localidad>1</Localidad>
@@ -58,18 +58,38 @@
     <TipoDocumento>1</TipoDocumento>
     <NumeroDocumento>20369643879</NumeroDocumento>
     <Domicilio>Luis Ponce 840</Domicilio>
-    <CondicionIva>1</CondicionIva>
+    <CondicionIva>3</CondicionIva>
     <Localidad>1</Localidad>
     <Activo>1</Activo>
   </Table1>
   <Table1>
-    <IdCliente>9</IdCliente>
-    <NombreCliente>Juancito</NombreCliente>
+    <IdCliente>12</IdCliente>
+    <NombreCliente>Veisaga David</NombreCliente>
+    <TipoDocumento>6</TipoDocumento>
+    <NumeroDocumento>40325125</NumeroDocumento>
+    <Domicilio>Rafaela n° 2245</Domicilio>
+    <CondicionIva>3</CondicionIva>
+    <Localidad>5</Localidad>
+    <Activo>1</Activo>
+  </Table1>
+  <Table1>
+    <IdCliente>13</IdCliente>
+    <NombreCliente>Raul Lopez</NombreCliente>
     <TipoDocumento>1</TipoDocumento>
-    <NumeroDocumento>12312312311</NumeroDocumento>
-    <Domicilio>LALALA</Domicilio>
-    <CondicionIva>11</CondicionIva>
-    <Localidad>3</Localidad>
+    <NumeroDocumento>20251453658</NumeroDocumento>
+    <Domicilio>Salonia nº 22</Domicilio>
+    <CondicionIva>3</CondicionIva>
+    <Localidad>5</Localidad>
+    <Activo>1</Activo>
+  </Table1>
+  <Table1>
+    <IdCliente>19</IdCliente>
+    <NombreCliente>Gili Luciano</NombreCliente>
+    <TipoDocumento>6</TipoDocumento>
+    <NumeroDocumento>21546879</NumeroDocumento>
+    <Domicilio>Ruta 188 e/ 7 y 9</Domicilio>
+    <CondicionIva>3</CondicionIva>
+    <Localidad>10</Localidad>
     <Activo>1</Activo>
   </Table1>
 </NewDataSet>

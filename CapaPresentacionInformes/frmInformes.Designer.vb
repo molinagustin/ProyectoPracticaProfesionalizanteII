@@ -208,7 +208,7 @@ Partial Class frmInformes
         Legend2.Name = "Legend1"
         Me.chrInformesVentas.Legends.Add(Legend2)
         Me.chrInformesVentas.Location = New System.Drawing.Point(306, 96)
-        Me.chrInformesVentas.MinimumSize = New System.Drawing.Size(826, 575)
+        Me.chrInformesVentas.MinimumSize = New System.Drawing.Size(826, 550)
         Me.chrInformesVentas.Name = "chrInformesVentas"
         Series2.ChartArea = "ChartArea1"
         Series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie
@@ -247,7 +247,7 @@ Partial Class frmInformes
         Me.Cursor = System.Windows.Forms.Cursors.Default
         Me.Font = New System.Drawing.Font("Calibri", 12.0!)
         Me.Margin = New System.Windows.Forms.Padding(4)
-        Me.MinimumSize = New System.Drawing.Size(1160, 816)
+        Me.MinimumSize = New System.Drawing.Size(1160, 839)
         Me.Name = "frmInformes"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "INFORMES"

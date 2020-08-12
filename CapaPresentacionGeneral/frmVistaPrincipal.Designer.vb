@@ -202,7 +202,7 @@ Partial Class frmVistaPrincipal
         Me.pbxImagenDietetica.Location = New System.Drawing.Point(0, 31)
         Me.pbxImagenDietetica.Margin = New System.Windows.Forms.Padding(0)
         Me.pbxImagenDietetica.Name = "pbxImagenDietetica"
-        Me.pbxImagenDietetica.Size = New System.Drawing.Size(1321, 746)
+        Me.pbxImagenDietetica.Size = New System.Drawing.Size(1321, 809)
         Me.pbxImagenDietetica.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pbxImagenDietetica.TabIndex = 3
         Me.pbxImagenDietetica.TabStop = False
@@ -212,7 +212,7 @@ Partial Class frmVistaPrincipal
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.BackColor = System.Drawing.SystemColors.ControlDark
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ClientSize = New System.Drawing.Size(1321, 777)
+        Me.ClientSize = New System.Drawing.Size(1321, 840)
         Me.Controls.Add(Me.pbxImagenDietetica)
         Me.Controls.Add(Me.menuVistaPrincipal)
         Me.Font = New System.Drawing.Font("Calibri", 10.0!)
@@ -220,7 +220,7 @@ Partial Class frmVistaPrincipal
         Me.IsMdiContainer = True
         Me.MainMenuStrip = Me.menuVistaPrincipal
         Me.Margin = New System.Windows.Forms.Padding(4)
-        Me.MinimumSize = New System.Drawing.Size(1337, 816)
+        Me.MinimumSize = New System.Drawing.Size(1337, 879)
         Me.Name = "frmVistaPrincipal"
         Me.Text = "SISTEMA DE COMPROBANTES EN LINEA"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
