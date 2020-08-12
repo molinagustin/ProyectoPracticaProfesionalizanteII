@@ -87,7 +87,12 @@ CapaPresentacionComprobantes
  </summary>
  <param name="valor">Valor a incrementar</param>
 </member>
-<member name="M:CapaPresentacionComprobantes.frmFacturaGeneral.cargarEncabComprobante">
+<member name="M:CapaPresentacionComprobantes.frmFacturaGeneral.barraGeneracionFactura">
+ <summary>
+ Metodo que reestablece la barra y el boton para genera facturas
+ </summary>
+</member>
+<member name="M:CapaPresentacionComprobantes.frmFacturaGeneral.cargarEncabComprobante(System.String,System.String)">
  <summary>
  Metodo para cargar y obtener el Id del encabezado del comprobante
  </summary>

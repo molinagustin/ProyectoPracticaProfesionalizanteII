@@ -341,9 +341,9 @@ Public Class frmFacturaGeneral
         Try
             If ListaItems.Count = 0 Then
                 Throw New Exception("NO HA INGRESADO NINGUN PRODUCTO")
+
             Else
                 'Guardo el encabezado
-
                 With Encabezado
                     .TipoComprobante = 3
                     .ConceptoInc = "Productos"
@@ -371,7 +371,7 @@ Public Class frmFacturaGeneral
 
                 'Habria que guardar el valor del total que tienen el txtTotal
                 Dim ValorTotal As Double = Convert.ToDouble(txtTotal.Text)
-                If ValorTotal >= 1200 And txtNumDoc.Text = "" Then
+                If ValorTotal >= 0 And txtNumDoc.Text = "" Then
                     Throw New Exception("DEBE SELECCIONAR UN CLIENTE")
                 Else
 
@@ -395,37 +395,65 @@ Public Class frmFacturaGeneral
                     'Si se confirma la accion, se procede a la emision de la factura
                     If resultado = DialogResult.Yes Then
 
+                        'Deshabilito el boton y muestra la barra de progreso de la factura
+                        barraGeneracionFactura()
+
                         Dim NumeroTarjeta As String = If(Encabezado.FormaPago = 2, Encabezado.NumeroTarjCredito, Encabezado.NumeroTarjDebito)
                         'Comienzo la emision del comprobante
                         Await Task.Run(Function() facturador.IngresarEncabezado())
+                        aumentarBarra(5)
                         Await Task.Run(Function() facturador.IngresarPuntoVenta())
+                        aumentarBarra(5)
                         Await Task.Run(Function() facturador.IngresarTipoComp())
+                        aumentarBarra(5)
                         Await Task.Run(Function() facturador.IngresarFecha())
+                        aumentarBarra(5)
                         Await Task.Run(Function() facturador.IngresarConcepIncluir())
+                        aumentarBarra(5)
                         Await Task.Run(Function() facturador.IngresarCondIVA())
+                        aumentarBarra(5)
                         Await Task.Run(Function() facturador.IngresarTipoDoc(Cliente.TipoDocumento))
+                        aumentarBarra(5)
                         Await Task.Run(Function() facturador.IngresarNroDoc(Cliente.NumeroDocumento))
+                        aumentarBarra(5)
                         Await Task.Run(Function() facturador.IngresarFormaPago(Convert.ToString(Encabezado.FormaPago), NumeroTarjeta))
+                        aumentarBarra(5)
                         Await Task.Run(Function() facturador.IngresarItems())
+                        aumentarBarra(5)
                         If Await Task.Run(Function() facturador.Terminar()) Then
-                            'Al finalizar se carga el encabezado del comprobante generado
-                            cargarEncabComprobante()
-                            MsgBox("Comprobante Generado con Exito!")
+                            aumentarBarra(5)
+                            'Vuelvo al menu principal para obtener el nro de comprobante y cae
                             Await Task.Run(Function() facturador.Volver())
+                            aumentarBarra(5)
+                            Await Task.Run(Function() facturador.ObtenerComprobante())
+                            aumentarBarra(5)
+                            Dim nroComp As String = Await Task.Run(Function() facturador.ObtenerNroComp())
+                            aumentarBarra(5)
+                            Dim nroCAE As String = Await Task.Run(Function() facturador.ObtenerCae())
+                            aumentarBarra(5)
+                            Await Task.Run(Function() facturador.Volver())
+                            aumentarBarra(5)
 
+                            'Al finalizar se carga el encabezado del comprobante generado
+                            cargarEncabComprobante(nroComp, nroCAE)
+                            aumentarBarra(5)
+
+                            'Limpio la lista de items y actualizo el DGV
                             ListaItems.Clear()
                             ActualizarDGV()
+                            aumentarBarra(5)
+
+                            'Limpio los datos del cliente
                             Dim clientenuevo As New eCliente
                             Cliente = clientenuevo
                             btnBorrarDatos.PerformClick()
-                            Await Task.Run(Function() facturador.ObtenerComprobante())
-                            Dim nrocomp As String = Await Task.Run(Function() facturador.ObtenerNroComp())
-                            Dim nroCAE As String = Await Task.Run(Function() facturador.ObtenerCae())
-                            Await Task.Run(Function() facturador.Volver())
 
-                            MessageBox.Show(nrocomp, nroCAE)
+                            cboProductoServicio.SelectedValue = 0
+                            aumentarBarra(10)
+
+                            'Muestro mensaje de que fue generado correctamente el comprobante
+                            MsgBox("Comprobante Generado con Exito!")
                         End If
-
 
                     Else
                         MsgBox("SE CANCELO LA EMISION DEL COMPROBANTE", MsgBoxStyle.Information, Text)
@@ -546,7 +574,6 @@ Public Class frmFacturaGeneral
         txtNumDoc.Text = ""
         txtNombreCliente.Text = ""
         txtDomicilio.Text = ""
-
     End Sub
 
     'Evento que ocurre al darle un formato al DGV
@@ -644,11 +671,12 @@ Public Class frmFacturaGeneral
                 'Creo un objeto para mostrar el stock
                 Dim stock As New eStock
                 stock = stock.ObtenerStockProducto(cboProductoServicio.SelectedValue)
-                txtStockAlmacen.Text = stock.StockExistencia
+                txtStockAlmacen.Text = stock.StockExistencia.ToString("F2")
             End If
 
         Else
             txtPrecioUnitario.Text = "0"
+            txtStockAlmacen.Text = ""
         End If
     End Sub
 
@@ -779,10 +807,29 @@ Public Class frmFacturaGeneral
     End Sub
 
     ''' <summary>
+    ''' Metodo que reestablece la barra y el boton para genera facturas
+    ''' </summary>
+    Public Sub barraGeneracionFactura()
+        barHabilitarFactura.Value = 0
+        lblProgresoBarra.Text = "0%"
+        barHabilitarFactura.Visible = True
+        lblProgresoBarra.Visible = True
+
+        btnGenerarFactura.Enabled = False
+        btnGenerarFactura.Visible = False
+    End Sub
+
+    ''' <summary>
     ''' Metodo para cargar y obtener el Id del encabezado del comprobante
     ''' </summary>
-    Public Sub cargarEncabComprobante()
+    Public Sub cargarEncabComprobante(numComp As String, cae As String)
         Try
+            'Guardo los valores de AFIP
+            With Encabezado
+                .ComprobanteCompleto = numComp
+                .CAE = cae
+            End With
+
             'Guardo el Id de la insersion del encabezado
             Dim idEncab As Integer = Encabezado.InsertarComprobante
 
@@ -790,7 +837,7 @@ Public Class frmFacturaGeneral
             If idEncab > 0 Then
                 cargarCuerposComprobante(idEncab)
             Else
-                Throw New Exception("No se hizo la carga correcta del encabezado")
+                Throw New Exception("No se hizo la carga correcta del encabezado del comprobante")
             End If
 
         Catch ex As Exception
@@ -812,11 +859,11 @@ Public Class frmFacturaGeneral
 
                 'Si es menor o igual a cero indica un error en la carga del registro
                 If Not itemCuerpo.InsertarCuerpo() > 0 Then
-                    Throw New Exception("No se hizo la carga correcta del cuerpo")
+                    Throw New Exception("No se hizo la carga correcta del cuerpo del comprobante")
                 End If
 
                 'Actualizo el stock segun producto y cantidad vendida
-                'actualizarStock(itemCuerpo.ProductoServicio, itemCuerpo.Cantidad)
+                actualizarStock(itemCuerpo.ProductoServicio, itemCuerpo.Cantidad)
             Next
 
         Catch ex As Exception
@@ -840,16 +887,21 @@ Public Class frmFacturaGeneral
             With stockActualAlmacen
                 .IdStock = stockAlmacen.IdStock
                 .IdProdStock = stockAlmacen.IdProdStock
-                .StockExistencia = stockAlmacen.StockExistencia - cantVendida
+
+                Dim stock As Double = stockAlmacen.StockExistencia - cantVendida
                 'Si el stock diera negativo, lo dejo nulo
-                If .StockExistencia < 0 Then
-                    .StockExistencia = 0
+                If stock < 0 Then
+                    stock = 0
                 End If
+                .StockExistencia = stock
             End With
 
-            'Actualizo el stock. Si no devuelve un valor mayor a 0 entonces no se modifico el registro
-            If Not stockAlmacen.ActualizarStock(stockActualAlmacen) > 0 Then
-                Throw New Exception("Fallo al realizar la actualizacion de stock")
+            'Si los stock son distintos, los actualizo (sino quiere decir que continua con el mismo stock, siendo 0 seguramente)
+            If stockAlmacen.StockExistencia <> stockActualAlmacen.StockExistencia Then
+                'Actualizo el stock. Si no devuelve un valor mayor a 0 entonces no se modifico el registro
+                If Not stockAlmacen.ActualizarStock(stockActualAlmacen) > 0 Then
+                    Throw New Exception("Fallo al realizar la actualizacion de stock")
+                End If
             End If
 
         Catch ex As Exception

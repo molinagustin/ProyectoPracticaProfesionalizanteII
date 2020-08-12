@@ -20,7 +20,7 @@ Public Class eInforme
     ''' <param name="fechaH">Fecha hasta cuando se quiere consultar</param>
     Public Sub obtenerVentasFecha(ByRef tabla As DataTable, fechaD As Date, fechaH As Date)
         Dim ejecucion As New clsEjecucionQuery
-        Dim query As String = "SELECT cuerpo_comprobantes.IdCuerpo, encabezado_comprobantes.Fecha, encabezado_comprobantes.NumComprobante, productos.NombreProducto, cuerpo_comprobantes.Cantidad, cuerpo_comprobantes.BonificacionTotal, cuerpo_comprobantes.Total FROM encabezado_comprobantes, productos, cuerpo_comprobantes WHERE encabezado_comprobantes.NumComprobante = cuerpo_comprobantes.NumeroComprobante AND cuerpo_comprobantes.ProductoServicio = productos.IdProducto AND encabezado_comprobantes.Fecha BETWEEN '" & fechaD.ToString("yyyy/MM/dd") & "' AND '" & fechaH.ToString("yyyy/MM/dd") & "' ORDER BY encabezado_comprobantes.Fecha;"
+        Dim query As String = "SELECT cuerpo_comprobantes.IdCuerpo, encabezado_comprobantes.Fecha, encabezado_comprobantes.ComprobanteCompleto, productos.NombreProducto, cuerpo_comprobantes.Cantidad, cuerpo_comprobantes.BonificacionTotal, cuerpo_comprobantes.Total FROM encabezado_comprobantes, productos, cuerpo_comprobantes WHERE encabezado_comprobantes.NumComprobante = cuerpo_comprobantes.NumeroComprobante AND cuerpo_comprobantes.ProductoServicio = productos.IdProducto AND encabezado_comprobantes.Fecha BETWEEN '" & fechaD.ToString("yyyy/MM/dd") & "' AND '" & fechaH.ToString("yyyy/MM/dd") & "' ORDER BY encabezado_comprobantes.Fecha;"
 
         ejecucion.obtenerRegistros(tabla, query)
     End Sub
