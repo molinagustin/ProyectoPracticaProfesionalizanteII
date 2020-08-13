@@ -194,6 +194,7 @@ Public Class frmFacturaGeneral
             flag = 1
 
             'Funciones asincronas (Descargar Navegador, Abrirlo, Ingresar con los datos pasados e ir a los comprobantes en linea)
+
             Await Task.Run(Function() facturador.DescargarNavegador)
             Await Task.Run(Function() facturador.AbrirNavegador)
             Await Task.Run(Function() facturador.IrPagAfip)
@@ -207,8 +208,10 @@ Public Class frmFacturaGeneral
             Await Task.Run(Function() facturador.IngresarEmpresa())
             aumentarBarra(20)
 
+
         Catch ex As Exception
             MsgBox("Error: " & ex.Message, MsgBoxStyle.Critical, Text)
+            Me.Close()
         End Try
     End Sub
 
@@ -359,6 +362,7 @@ Public Class frmFacturaGeneral
                         Throw New Exception("DEBE INGRESAR EL NRO DE LA TARJETA DE CREDITO")
                     Else
                         Encabezado.NumeroTarjCredito = txtTarjetaCredito.Text
+                        Encabezado.Tarjeta = cboTarjetaCredito.SelectedValue
                     End If
                 ElseIf rbtTarjetaDebito.Checked Then
                     Encabezado.FormaPago = 2
@@ -366,6 +370,7 @@ Public Class frmFacturaGeneral
                         Throw New Exception("DEBE INGRESAR EL NRO DE LA TARJETA DE DEBITO")
                     Else
                         Encabezado.NumeroTarjDebito = txtTarjetaDebito.Text
+                        Encabezado.Tarjeta = cboTarjetaDebito.SelectedValue
                     End If
                 End If
 
@@ -398,7 +403,12 @@ Public Class frmFacturaGeneral
                         'Deshabilito el boton y muestra la barra de progreso de la factura
                         barraGeneracionFactura()
 
-                        Dim NumeroTarjeta As String = If(Encabezado.FormaPago = 2, Encabezado.NumeroTarjCredito, Encabezado.NumeroTarjDebito)
+                        Dim NumeroTarjeta As String = ""
+                        If Encabezado.FormaPago = 2 Then
+                            NumeroTarjeta = Encabezado.NumeroTarjDebito
+                        ElseIf Encabezado.FormaPago = 3 Then
+                            NumeroTarjeta = Encabezado.NumeroTarjCredito
+                        End If
                         'Comienzo la emision del comprobante
                         Await Task.Run(Function() facturador.IngresarEncabezado())
                         aumentarBarra(5)
@@ -416,7 +426,7 @@ Public Class frmFacturaGeneral
                         aumentarBarra(5)
                         Await Task.Run(Function() facturador.IngresarNroDoc(Cliente.NumeroDocumento))
                         aumentarBarra(5)
-                        Await Task.Run(Function() facturador.IngresarFormaPago(Convert.ToString(Encabezado.FormaPago), NumeroTarjeta))
+                        Await Task.Run(Function() facturador.IngresarFormaPago(Convert.ToString(Encabezado.FormaPago), Encabezado.Tarjeta, NumeroTarjeta))
                         aumentarBarra(5)
                         Await Task.Run(Function() facturador.IngresarItems())
                         aumentarBarra(5)
@@ -428,11 +438,11 @@ Public Class frmFacturaGeneral
                             Await Task.Run(Function() facturador.ObtenerComprobante())
                             aumentarBarra(5)
                             Dim nroComp As String = Await Task.Run(Function() facturador.ObtenerNroComp())
-                            aumentarBarra(5)
+                            aumentarBarra(10)
                             Dim nroCAE As String = Await Task.Run(Function() facturador.ObtenerCae())
                             aumentarBarra(5)
                             Await Task.Run(Function() facturador.Volver())
-                            aumentarBarra(5)
+                            aumentarBarra(10)
 
                             'Al finalizar se carga el encabezado del comprobante generado
                             cargarEncabComprobante(nroComp, nroCAE)
@@ -447,9 +457,9 @@ Public Class frmFacturaGeneral
                             Dim clientenuevo As New eCliente
                             Cliente = clientenuevo
                             btnBorrarDatos.PerformClick()
+                            rbtContado.Checked = True
 
                             cboProductoServicio.SelectedValue = 0
-                            aumentarBarra(10)
 
                             'Muestro mensaje de que fue generado correctamente el comprobante
                             MsgBox("Comprobante Generado con Exito!")
@@ -463,6 +473,7 @@ Public Class frmFacturaGeneral
 
         Catch ex As Exception
             MsgBox("Error: " & ex.Message, MsgBoxStyle.Critical, Text)
+            Me.Close()
         End Try
     End Sub
 

@@ -581,7 +581,7 @@ namespace ParaPuppeteer
             }
         }
 
-        public async Task IngresarFormaPago(string NroPago, string NroTarjeta = "")
+        public async Task IngresarFormaPago(string NroPago,int TipoTarj, string NroTarjeta = "")
         {
             try
             {
@@ -619,6 +619,53 @@ namespace ParaPuppeteer
                     if (NroPago == "2" || NroPago == "3")
                     {
                         string IdTarjeta = NroPago == "2" ? "#tarjeta_nro_debito1" : "#tarjeta_nro_credito1";
+                        //
+                        switch (TipoTarj)
+                        {
+                            case 1:
+                                await NewPage.SelectAsync("select#tarjeta_id_tipo_debito1", "1");
+                                break;
+                            case 2:
+                                await NewPage.SelectAsync("select#tarjeta_id_tipo_debito1", "2");
+                                break;
+                            case 3:
+                                await NewPage.SelectAsync("select#tarjeta_id_tipo_debito1", "3");
+                                break;
+                            case 14:
+                                await NewPage.SelectAsync("select#tarjeta_id_tipo_debito1", "99");
+                                break;
+                            case 4:
+                                await NewPage.SelectAsync("select#tarjeta_id_tipo_credito1", "1");
+                                break;
+                            case 5:
+                                await NewPage.SelectAsync("select#tarjeta_id_tipo_credito1", "2");
+                                break;
+                            case 6:
+                                await NewPage.SelectAsync("select#tarjeta_id_tipo_credito1", "3");
+                                break;
+                            case 7:
+                                await NewPage.SelectAsync("select#tarjeta_id_tipo_credito1", "4");
+                                break;
+                            case 8:
+                                await NewPage.SelectAsync("select#tarjeta_id_tipo_credito1", "5");
+                                break;
+                            case 9:
+                                await NewPage.SelectAsync("select#tarjeta_id_tipo_credito1", "6");
+                                break;
+                            case 10:
+                                await NewPage.SelectAsync("select#tarjeta_id_tipo_credito1", "7");
+                                break;
+                            case 11:
+                                await NewPage.SelectAsync("select#tarjeta_id_tipo_credito1", "8");
+                                break;
+                            case 12:
+                                await NewPage.SelectAsync("select#tarjeta_id_tipo_credito1", "9");
+                                break;
+                            case 15:
+                                await NewPage.SelectAsync("select#tarjeta_id_tipo_credito1", "99");
+                                break;
+
+                        }
 
                         var inputTarjeta = await NewPage.QuerySelectorAsync(IdTarjeta);
                         if (inputTarjeta != null)
@@ -761,7 +808,7 @@ namespace ParaPuppeteer
                     }
                     else
                     {
-                        throw new Exception("No se detecta el boton generar");
+                        throw new Exception("FALLO AL GENERAR LA FACTURA");
                     }
                 }
                 else

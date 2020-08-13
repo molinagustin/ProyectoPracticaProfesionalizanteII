@@ -22,6 +22,274 @@
     </xs:element>
   </xs:schema>
   <Table1>
+    <IdCuerpo>24</IdCuerpo>
+    <Fecha>2020-08-10T00:00:00-03:00</Fecha>
+    <NombreProducto>Mes de Agosto</NombreProducto>
+    <Cantidad>1</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>1000</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>25</IdCuerpo>
+    <Fecha>2020-08-11T00:00:00-03:00</Fecha>
+    <NombreProducto>Mes de Agosto</NombreProducto>
+    <Cantidad>1</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>1000</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>26</IdCuerpo>
+    <Fecha>2020-08-11T00:00:00-03:00</Fecha>
+    <NombreProducto>Fernet 1 Lt.</NombreProducto>
+    <Cantidad>1</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>276.53</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>27</IdCuerpo>
+    <Fecha>2020-08-11T00:00:00-03:00</Fecha>
+    <NombreProducto>Fernet 1 Lt.</NombreProducto>
+    <Cantidad>1</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>276.53</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>28</IdCuerpo>
+    <Fecha>2020-08-11T00:00:00-03:00</Fecha>
+    <NombreProducto>Coca Cola 1Lt</NombreProducto>
+    <Cantidad>1</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>576.53</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>29</IdCuerpo>
+    <Fecha>2020-08-11T00:00:00-03:00</Fecha>
+    <NombreProducto>Coca Cola 1Lt</NombreProducto>
+    <Cantidad>1</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>876.53</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>30</IdCuerpo>
+    <Fecha>2020-08-11T00:00:00-03:00</Fecha>
+    <NombreProducto>Fernet 1 Lt.</NombreProducto>
+    <Cantidad>1</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>276.53</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>31</IdCuerpo>
+    <Fecha>2020-08-11T00:00:00-03:00</Fecha>
+    <NombreProducto>Coca Cola 1Lt</NombreProducto>
+    <Cantidad>1</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>576.53</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>32</IdCuerpo>
+    <Fecha>2020-08-11T00:00:00-03:00</Fecha>
+    <NombreProducto>Fernet 1 Lt.</NombreProducto>
+    <Cantidad>3</Cantidad>
+    <BonificacionTotal>82.959</BonificacionTotal>
+    <Total>746.631</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>33</IdCuerpo>
+    <Fecha>2020-08-11T00:00:00-03:00</Fecha>
+    <NombreProducto>Coca Cola 1Lt</NombreProducto>
+    <Cantidad>6</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>2546.63</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>34</IdCuerpo>
+    <Fecha>2020-08-11T00:00:00-03:00</Fecha>
+    <NombreProducto>Avena Integral</NombreProducto>
+    <Cantidad>2.5</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>2640.38</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>35</IdCuerpo>
+    <Fecha>2020-08-11T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Mes de Agosto</NombreProducto>
+    <Cantidad>1</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>1000</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>36</IdCuerpo>
+    <Fecha>2020-08-11T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Leche Sachet 1 L.</NombreProducto>
+    <Cantidad>3</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>1225</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>37</IdCuerpo>
+    <Fecha>2020-08-11T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Coca Cola 1Lt</NombreProducto>
+    <Cantidad>7</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>3325</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>38</IdCuerpo>
+    <Fecha>2020-08-11T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Leche Sachet 1 L.</NombreProducto>
+    <Cantidad>7</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>3850</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>39</IdCuerpo>
+    <Fecha>2020-08-11T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Avena Integral</NombreProducto>
+    <Cantidad>2.5</Cantidad>
+    <BonificacionTotal>9.5625</BonificacionTotal>
+    <Total>3934.19</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>40</IdCuerpo>
+    <Fecha>2020-08-11T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Mes de Agosto</NombreProducto>
+    <Cantidad>1</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>1000</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>41</IdCuerpo>
+    <Fecha>2020-08-11T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Mes de Agosto</NombreProducto>
+    <Cantidad>3</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>4000</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>42</IdCuerpo>
+    <Fecha>2020-08-11T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Mes de Agosto</NombreProducto>
+    <Cantidad>1</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>1000</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>43</IdCuerpo>
+    <Fecha>2020-08-11T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Mes de Agosto</NombreProducto>
+    <Cantidad>1</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>1000</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>44</IdCuerpo>
+    <Fecha>2020-08-11T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Mes de Agosto</NombreProducto>
+    <Cantidad>2</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>2000</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>45</IdCuerpo>
+    <Fecha>2020-08-11T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Mes de Agosto</NombreProducto>
+    <Cantidad>5</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>5000</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>46</IdCuerpo>
+    <Fecha>2020-08-11T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Mes de Agosto</NombreProducto>
+    <Cantidad>1</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>6000</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>47</IdCuerpo>
+    <Fecha>2020-08-11T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Leche Sachet 1 L.</NombreProducto>
+    <Cantidad>5</Cantidad>
+    <BonificacionTotal>39.375</BonificacionTotal>
+    <Total>335.625</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>48</IdCuerpo>
+    <Fecha>2020-08-11T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Avena Integral</NombreProducto>
+    <Cantidad>3.7</Cantidad>
+    <BonificacionTotal>17.3438</BonificacionTotal>
+    <Total>457.036</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>49</IdCuerpo>
+    <Fecha>2020-08-11T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Avena Integral</NombreProducto>
+    <Cantidad>2.45</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>91.875</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>50</IdCuerpo>
+    <Fecha>2020-08-11T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Fernet 1 Lt.</NombreProducto>
+    <Cantidad>1</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>276.53</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>51</IdCuerpo>
+    <Fecha>2020-08-11T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Fernet 1 Lt.</NombreProducto>
+    <Cantidad>1</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>276.53</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>52</IdCuerpo>
+    <Fecha>2020-08-11T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Coca Cola 1Lt</NombreProducto>
+    <Cantidad>1</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>576.53</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>53</IdCuerpo>
+    <Fecha>2020-08-11T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Avena Integral</NombreProducto>
+    <Cantidad>2.5</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>670.28</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>54</IdCuerpo>
+    <Fecha>2020-08-11T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Leche Sachet 1 L.</NombreProducto>
+    <Cantidad>1</Cantidad>
+    <BonificacionTotal>7.65</BonificacionTotal>
+    <Total>737.63</Total>
+  </Table1>
+  <Table1>
     <IdCuerpo>55</IdCuerpo>
     <Fecha>2020-08-12T00:00:00-03:00</Fecha>
     <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
@@ -38,5 +306,113 @@
     <Cantidad>7</Cantidad>
     <BonificacionTotal>389.078</BonificacionTotal>
     <Total>2352.13</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>57</IdCuerpo>
+    <Fecha>2020-08-12T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Mes de Agosto</NombreProducto>
+    <Cantidad>1</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>1000</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>58</IdCuerpo>
+    <Fecha>2020-08-12T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Avena Integral</NombreProducto>
+    <Cantidad>1</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>37.5</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>59</IdCuerpo>
+    <Fecha>2020-08-12T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Avena Integral</NombreProducto>
+    <Cantidad>1</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>75</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>60</IdCuerpo>
+    <Fecha>2020-08-12T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Avena Integral</NombreProducto>
+    <Cantidad>1</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>112.5</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>61</IdCuerpo>
+    <Fecha>2020-08-12T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Avena Integral</NombreProducto>
+    <Cantidad>1</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>37.5</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>62</IdCuerpo>
+    <Fecha>2020-08-12T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Medialunas</NombreProducto>
+    <Cantidad>2</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>240</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>63</IdCuerpo>
+    <Fecha>2020-08-12T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Medialunas</NombreProducto>
+    <Cantidad>3</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>600</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>64</IdCuerpo>
+    <Fecha>2020-08-12T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Mes de Agosto</NombreProducto>
+    <Cantidad>1</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>1000</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>65</IdCuerpo>
+    <Fecha>2020-08-12T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Avena Integral</NombreProducto>
+    <Cantidad>1</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>1037.5</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>66</IdCuerpo>
+    <Fecha>2020-08-12T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Galletas Quaker por 130gr.</NombreProducto>
+    <Cantidad>1</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>1138.74</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>67</IdCuerpo>
+    <Fecha>2020-08-12T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Coca Cola 1Lt</NombreProducto>
+    <Cantidad>5</Cantidad>
+    <BonificacionTotal>150</BonificacionTotal>
+    <Total>2488.74</Total>
+  </Table1>
+  <Table1>
+    <IdCuerpo>68</IdCuerpo>
+    <Fecha>2020-08-12T00:00:00-03:00</Fecha>
+    <ComprobanteCompleto>0003-00000440</ComprobanteCompleto>
+    <NombreProducto>Arroz Integral Caja 1kg</NombreProducto>
+    <Cantidad>1</Cantidad>
+    <BonificacionTotal>0</BonificacionTotal>
+    <Total>70</Total>
   </Table1>
 </NewDataSet>

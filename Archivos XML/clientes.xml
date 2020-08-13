@@ -83,13 +83,13 @@
     <Activo>1</Activo>
   </Table1>
   <Table1>
-    <IdCliente>19</IdCliente>
+    <IdCliente>22</IdCliente>
     <NombreCliente>Gili Luciano</NombreCliente>
     <TipoDocumento>6</TipoDocumento>
-    <NumeroDocumento>21546879</NumeroDocumento>
-    <Domicilio>Ruta 188 e/ 7 y 9</Domicilio>
+    <NumeroDocumento>28416733</NumeroDocumento>
+    <Domicilio>Ruta 188</Domicilio>
     <CondicionIva>3</CondicionIva>
-    <Localidad>10</Localidad>
+    <Localidad>11</Localidad>
     <Activo>1</Activo>
   </Table1>
 </NewDataSet>

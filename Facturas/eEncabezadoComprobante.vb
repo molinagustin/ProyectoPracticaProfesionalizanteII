@@ -142,7 +142,7 @@ Public Class eEncabezadoComprobante
         End Get
         Set(value As String)
             'El valor tendra que ser hasta 16 caracteres de longitud y numerico
-            If (value.Trim().Length = 16 And IsNumeric(value.Trim())) Or value.Trim() = "" Then
+            If (value.Trim().Length <= 19 And value.Trim().Length >= 13 And IsNumeric(value.Trim())) Or value.Trim() = "" Then
                 _NumeroTarjDebito = value.Trim()
             Else
                 Throw New Exception("Largo y/o contenido de Numero de Tarjeta Debito incorrecto")
@@ -156,7 +156,7 @@ Public Class eEncabezadoComprobante
         End Get
         Set(value As String)
             'El valor tendra que ser hasta 16 caracteres de longitud y numerico
-            If (value.Trim().Length = 16 And IsNumeric(value.Trim())) Or value.Trim() = "" Then
+            If (value.Trim().Length <= 19 And value.Trim().Length >= 13 And IsNumeric(value.Trim())) Or value.Trim() = "" Then
                 _NumeroTarjCredito = value.Trim()
             Else
                 Throw New Exception("Largo y/o contenido de Numero de Tarjeta Credito incorrecto")
